@@ -2,47 +2,71 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Assistant, Qiu Lab at Stanford University
+subtitle:
 
 profile:
-  align: right
+  align: left
   image: xiaoying_liao.png
-  image_circular: true
-  more_info: >
-    <p>Stanford, California</p>
+  image_circular: false
 
 selected_papers: false
 custom_publications: false
 custom_education: false
 custom_service: false
-social: true
+social: false
 
 announcements:
   enabled: false
-  scrollable: true
-  limit: 5
 
 latest_posts:
   enabled: false
-  scrollable: true
-  limit: 3
 ---
 
-I am a Research Assistant in the [Qiu Lab at Stanford University](https://www.devo-evo.com/people/xiaoying/), working on **AI for biology**. My current projects focus on 3D profiling of early mouse embryonic development and spatial profiling and modeling of cardiomyopathy recovery in children.
+<style>
+  .post-header {
+    display: none;
+  }
+</style>
 
-My background spans **statistics, biomedical engineering, and experimental biology**. I received an M.S.E. in Biomedical Engineering from Johns Hopkins University and a B.Sc. (Honours) in Statistics from the University of Sydney. Across these settings, I have worked on spatial transcriptomics, single-cell benchmarking, and the molecular mechanisms of tissue development and disease.
+<div class="home-intro">
+  <h1 class="home-title">Hello, I'm Xiaoying Liao.</h1>
 
-## Research Goal {#research-goal}
+  <div class="typing-intro" aria-label="I am an AI for Science researcher">
+    <span aria-hidden="true">I am <span id="typed-text"></span><span class="typing-cursor">|</span></span>
+  </div>
 
-**My goal is to develop AI methods that connect molecular and cellular measurements to tissue-level behavior, helping explain development and disease and guide therapeutic discovery.**
+  <p>
+    I am a Research Assistant in the <a href="https://www.devo-evo.com/people/xiaoying/">Qiu Lab</a> at
+    <a href="https://www.stanford.edu/">Stanford University</a>, working at the intersection of <strong>AI and biology</strong>. My research
+    focuses on single-cell and spatial genomics, computational modeling of development and disease, and AI-driven biological discovery.
+  </p>
 
-I am especially interested in three connected directions:
+  <p>
+    My background spans <strong>statistics and biomedical engineering</strong>. I received my M.S.E. from
+    <a href="https://www.jhu.edu/">Johns Hopkins University</a> and my B.Sc. (Honours) from the
+    <a href="https://www.sydney.edu.au/">University of Sydney</a>.
+  </p>
 
-- **AI for biological discovery:** developing computational methods and exploring foundation models that integrate genomics and imaging to generate testable biological hypotheses.
-- **Cells in spatial context:** modeling how cellular states and spatial organization contribute to tissue development and function.
-- **Disease and recovery:** combining computational analysis with experimental biology to understand tissue dysfunction and identify opportunities for therapeutic intervention.
+  <div class="phd-callout">
+    <div class="phd-title">I am actively seeking Ph.D. opportunities for Fall 2027.</div>
+    <div class="phd-description">
+      I am interested in developing AI methods for understanding biological systems and enabling scientific discovery. Please feel free to reach out!
+    </div>
+  </div>
 
-**I am applying to Ph.D. programs for Fall 2027** and welcome conversations with potential advisors and collaborators working on AI for biology, spatial genomics, and development and disease.
+  <div class="homepage-links">
+    <a href="https://scholar.google.com/citations?user=UdXzuvkAAAAJ" target="_blank" rel="noopener noreferrer">
+      <i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar
+    </a>
+    <a href="https://github.com/Cristal0412" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
+    </a>
+    <a href="{{ '/assets/pdf/Xiaoying_Liao_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+      <i class="fa-solid fa-file-lines" aria-hidden="true"></i> CV
+    </a>
+    <a href="mailto:xliao@stanford.edu"> <i class="fa-solid fa-envelope" aria-hidden="true"></i> Email </a>
+  </div>
+</div>
 
 ## Research Experience {#research-experience}
 
@@ -81,3 +105,52 @@ Led tutorials in probability, statistical inference, R programming, data analyti
 - Second Prize, China National High School Biology Olympiad (2018).
 
 [Download the full CV (PDF)](/assets/pdf/Xiaoying_Liao_CV.pdf)
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const phrases = [
+      "an AI for Science researcher",
+      "a biologist",
+      "a dancer",
+      "a life enthusiast",
+      "an explorer of life"
+    ];
+    const typedText = document.getElementById("typed-text");
+    if (!typedText) return;
+
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      typedText.textContent = phrases[0];
+      return;
+    }
+
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let deleting = false;
+
+    function type() {
+      const phrase = phrases[phraseIndex];
+      if (deleting) {
+        charIndex--;
+        typedText.textContent = phrase.slice(0, charIndex);
+        if (charIndex === 0) {
+          deleting = false;
+          phraseIndex = (phraseIndex + 1) % phrases.length;
+          setTimeout(type, 300);
+          return;
+        }
+        setTimeout(type, 38);
+      } else {
+        charIndex++;
+        typedText.textContent = phrase.slice(0, charIndex);
+        if (charIndex === phrase.length) {
+          deleting = true;
+          setTimeout(type, 1400);
+          return;
+        }
+        setTimeout(type, 70);
+      }
+    }
+
+    type();
+  });
+</script>
