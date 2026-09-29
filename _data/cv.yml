@@ -87,6 +87,11 @@ cv:
         summary: Investigated the stage-specific roles of primary cilia and Hedgehog signaling in gland morphogenesis and adult tissue homeostasis.
 
     Publications:
+      - title: "Agent Harness Engineering: A Survey"
+        publisher: Under review at Transactions on Machine Learning Research
+        date: 2026
+        url: https://picrew.github.io/LLM-Harness/
+
       - title: "Bio-Babel: Autonomous Cross-Language Reconstruction of Agent-Ready Computational Biology Ecosystems"
         publisher: bioRxiv
         date: 2026
