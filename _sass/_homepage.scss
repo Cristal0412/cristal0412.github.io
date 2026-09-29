@@ -1,20 +1,25 @@
-.profile.float-left {
-  width: 24%;
-  max-width: 220px;
-  margin: 0.25rem 3rem 1.5rem 0;
+.home-hero {
+  display: grid;
+  grid-template-columns: minmax(180px, 220px) minmax(0, 1fr);
+  align-items: start;
+  gap: 3rem;
+  margin: 0 0 2.5rem;
 
-  img {
-    width: 100%;
-    aspect-ratio: 4 / 5;
-    border-radius: 8px !important;
-    box-shadow: none !important;
-    object-fit: cover;
-    object-position: center;
+  .home-portrait {
+    img {
+      display: block;
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      border-radius: 8px;
+      object-fit: cover;
+      object-position: center;
+    }
   }
 }
 
 .home-intro {
-  margin-bottom: 2rem;
+  min-width: 0;
+  margin: 0;
 
   .home-title {
     margin: 0 0 0.55rem;
@@ -71,7 +76,7 @@
     align-items: center;
     column-gap: 1.35rem;
     row-gap: 0.6rem;
-    margin: 1rem 0 1.6rem;
+    margin: 1rem 0 0.5rem;
 
     a {
       color: var(--global-text-color);
@@ -96,11 +101,11 @@
   }
 }
 
-.home-intro + h2 {
+.home-hero + h2 {
   clear: both;
 }
 
-.home-intro ~ h2 {
+.home-hero ~ h2 {
   margin-top: 2.5rem;
 }
 
@@ -123,11 +128,14 @@
 }
 
 @media (max-width: 767px) {
-  .profile.float-left {
-    float: none !important;
-    width: 58%;
-    max-width: 220px;
-    margin: 0 auto 1.6rem;
+  .home-hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+
+    .home-portrait {
+      width: min(58%, 220px);
+      margin: 0 auto;
+    }
   }
 
   .home-intro {

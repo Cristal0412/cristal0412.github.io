@@ -4,11 +4,6 @@ title: about
 permalink: /
 subtitle:
 
-profile:
-  align: left
-  image: xiaoying_liao.png
-  image_circular: false
-
 selected_papers: false
 custom_publications: false
 custom_education: false
@@ -28,43 +23,53 @@ latest_posts:
   }
 </style>
 
-<div class="home-intro">
-  <h1 class="home-title">Hello, I'm Xiaoying Liao.</h1>
-
-  <div class="typing-intro" aria-label="I am an AI for Science researcher">
-    <span aria-hidden="true">I am <span id="typed-text"></span><span class="typing-cursor">|</span></span>
+<div class="home-hero">
+  <div class="home-portrait">
+    <img src="{{ '/assets/img/xiaoying_liao.png' | relative_url }}" alt="Xiaoying Liao">
   </div>
 
-  <p>
-    I am a Research Assistant in the <a href="https://www.devo-evo.com/people/xiaoying/">Qiu Lab</a> at
-    <a href="https://www.stanford.edu/">Stanford University</a>, working at the intersection of <strong>AI and biology</strong>. My research
-    focuses on single-cell and spatial genomics, computational modeling of development and disease, and AI-driven biological discovery.
-  </p>
+  <div class="home-intro">
+    <h1 class="home-title">Hello, I'm Xiaoying Liao.</h1>
 
-  <p>
-    My background spans <strong>statistics and biomedical engineering</strong>. I received my M.S.E. from
-    <a href="https://www.jhu.edu/">Johns Hopkins University</a> and my B.Sc. (Honours) from the
-    <a href="https://www.sydney.edu.au/">University of Sydney</a>.
-  </p>
-
-  <div class="phd-callout">
-    <div class="phd-title">I am actively seeking Ph.D. opportunities for Fall 2027.</div>
-    <div class="phd-description">
-      I am interested in developing AI methods for understanding biological systems and enabling scientific discovery. Please feel free to reach out!
+    <div class="typing-intro" aria-label="I am an AI for Science researcher">
+      <span aria-hidden="true">I am <span id="typed-text"></span><span class="typing-cursor">|</span></span>
     </div>
-  </div>
 
-  <div class="homepage-links">
-    <a href="https://scholar.google.com/citations?user=UdXzuvkAAAAJ" target="_blank" rel="noopener noreferrer">
-      <i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar
-    </a>
-    <a href="https://github.com/Cristal0412" target="_blank" rel="noopener noreferrer">
-      <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
-    </a>
-    <a href="{{ '/assets/pdf/Xiaoying_Liao_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
-      <i class="fa-solid fa-file-lines" aria-hidden="true"></i> CV
-    </a>
-    <a href="mailto:xliao@stanford.edu"> <i class="fa-solid fa-envelope" aria-hidden="true"></i> Email </a>
+    <p>
+      I am a Research Assistant in the <a href="https://www.devo-evo.com/people/xiaoying/">Qiu Lab</a> at
+      <a href="https://www.stanford.edu/">Stanford University</a>, working at the intersection of <strong>AI and biology</strong>. My research
+      focuses on single-cell and spatial genomics, computational modeling of development and disease, and AI-driven biological discovery.
+    </p>
+
+    <p>
+      My background spans <strong>statistics and biomedical engineering</strong>. I received my M.S.E. from
+      <a href="https://www.jhu.edu/">Johns Hopkins University</a> and my B.Sc. (Honours) from the
+      <a href="https://www.sydney.edu.au/">University of Sydney</a>.
+    </p>
+
+    <div class="phd-callout">
+      <div class="phd-title">I am actively seeking Ph.D. opportunities for Fall 2027.</div>
+      <div class="phd-description">
+        I am interested in developing AI methods for understanding biological systems and enabling scientific discovery. Please feel free to reach out!
+      </div>
+    </div>
+
+    <div class="homepage-links">
+      <a href="https://scholar.google.com/citations?user=UdXzuvkAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">
+        <i class="ai ai-google-scholar" aria-hidden="true"></i> Scholar
+      </a>
+      <a href="https://github.com/Cristal0412" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/cristal-liao-64b4721b9/zh-cn?trk=people-guest_people_search-card" target="_blank" rel="noopener noreferrer">
+        <i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn
+      </a>
+      <a href="{{ '/assets/pdf/Xiaoying_Liao_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-file-lines" aria-hidden="true"></i> CV
+      </a>
+      <a href="mailto:xliao@stanford.edu"> <i class="fa-solid fa-envelope" aria-hidden="true"></i> Email </a>
+    </div>
+
   </div>
 </div>
 
