@@ -1,0 +1,125 @@
+cv:
+  name: Xiaoying Liao
+  label: Research Assistant in AI for Biology
+  email: xliao13@jh.edu
+  location: Stanford, California
+  image: ""
+  summary: Researcher integrating computational modeling, single-cell and spatial genomics, imaging, and experimental biology to study development and disease.
+
+  address:
+    city: Stanford
+    region: California
+    countryCode: US
+
+  sections:
+    Education:
+      - institution: Johns Hopkins University
+        location: Baltimore, Maryland
+        url: https://www.jhu.edu/
+        area: Biomedical Engineering
+        studyType: Master of Science in Engineering
+        start_date: 2024
+        end_date: 2025
+        highlights:
+          - "GPA: 4.00/4.00; supervised by Prof. Carlo Iomini"
+
+      - institution: University of Sydney
+        location: Sydney, Australia
+        url: https://www.sydney.edu.au/
+        area: Statistics
+        studyType: Bachelor of Science (Honours)
+        start_date: 2020
+        end_date: 2023
+        highlights:
+          - "GPA: 3.90/4.00; rank: 1/200; supervised by Prof. Jean Yang"
+
+    Experience:
+      - company: Qiu Lab, Stanford University
+        position: Research Assistant
+        location: Stanford, California
+        url: https://www.devo-evo.com/people/xiaoying/
+        start_date: 2026
+        end_date: Present
+        summary: AI, genomics, development, and disease
+        highlights:
+          - 3D profiling of early mouse embryonic development.
+          - Spatial profiling and modeling of cardiomyopathy recovery in children.
+
+      - company: Wilmer Eye Institute, Johns Hopkins University School of Medicine
+        position: Research Assistant
+        location: Baltimore, Maryland
+        start_date: 2024
+        end_date: Present
+        summary: Supervised by Prof. Carlo Iomini
+        highlights:
+          - Studied cilia-dependent Hedgehog signaling in meibomian gland development, progenitor maintenance, lipid homeostasis, and dry eye disease.
+          - Combined mouse genetics, transcriptomic analysis, quantitative imaging, and wet-lab experiments.
+
+      - company: Johns Hopkins University
+        position: Teaching Assistant, Cell & Tissue Engineering Lab
+        location: Baltimore, Maryland
+        start_date: 2025
+        end_date: Present
+        highlights:
+          - Mentored students in cell culture, gene delivery, metabolic glycoengineering, tissue modeling, data analysis, and scientific reporting.
+
+      - company: University of Sydney
+        position: Teaching Assistant
+        location: Sydney, Australia
+        start_date: 2023
+        end_date: 2023
+        highlights:
+          - Led tutorials and workshops in probability, statistical inference, R programming, data analytics, and introductory machine learning.
+
+    Projects:
+      - name: Spatial Transcriptomics Clustering
+        summary: Assessed clustering and spatial-domain detection methods across simulated and real spatial transcriptomics datasets.
+        highlights:
+          - Applied quality control, normalization, feature selection, PCA, K-means, Seurat, BayesSpace, and STitch3D.
+
+      - name: Quantitative Benchmarking in Single-Cell Analysis
+        summary: Developed a structured framework to evaluate methodological benchmarking studies in single-cell research.
+        highlights:
+          - Screened 563 studies and evaluated 245 relevant papers using a questionnaire with more than 70 criteria.
+          - Used linear and logistic regression to identify factors associated with benchmarking study design.
+
+      - name: Ciliary Hedgehog Signaling in Meibomian Gland Development
+        summary: Investigated the stage-specific roles of primary cilia and Hedgehog signaling in gland morphogenesis and adult tissue homeostasis.
+
+    Publications:
+      - title: "Bio-Babel: Autonomous Cross-Language Reconstruction of Agent-Ready Computational Biology Ecosystems"
+        publisher: bioRxiv
+        date: 2026
+        url: https://doi.org/10.64898/2026.08.30.743167
+
+      - title: "Prompt-based Adaptation in Large-scale Vision Models: A Survey"
+        publisher: Transactions on Machine Learning Research
+        date: 2026
+        url: https://arxiv.org/abs/2510.13219
+
+      - title: Boosting Active Learning with Knowledge Transfer
+        publisher: IEEE ICTAI
+        date: 2025
+        url: https://doi.org/10.1109/ICTAI66417.2025.00164
+
+      - title: Foundation Models for Radiology Report Generation
+        publisher: Handbook of Medical Computer Vision, Springer
+        date: 2026
+
+    Skills:
+      - name: Programming and analysis
+        keywords: [Python, R, SQL, MATLAB, Stata, SAS, SPSS, Tableau, GraphPad Prism, FIJI/ImageJ]
+      - name: Computational biology
+        keywords: [Single-cell transcriptomics, Spatial transcriptomics, Statistical modeling, Machine learning, Bioinformatics]
+      - name: Experimental biology
+        keywords: [Cell and tissue culture, Immunostaining, Confocal imaging, Two-photon imaging, PCR, qRT-PCR, Western blot, Genotyping, DNA/RNA extraction, Mouse procedures]
+
+    Honors and Awards:
+      - title: Vice Chancellor's Global Mobility Scholarship
+        date: 2020
+        awarder: University of Sydney
+      - title: Dalyell Scholar
+        date: 2022
+        awarder: University of Sydney
+      - title: Second Prize, China National High School Biology Olympiad
+        date: 2018
