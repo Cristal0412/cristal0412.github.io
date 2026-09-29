@@ -42,8 +42,8 @@ latest_posts:
     </p>
 
     <p>
-      My background spans <strong>statistics and biomedical engineering</strong>. I received my M.S.E. from
-      <a href="https://www.jhu.edu/">Johns Hopkins University</a> and my B.Sc. (Honours) from the
+      I have a background in both experimental and computational research. I earned my Master of Science in Engineering in Biomedical Engineering from
+      <a href="https://www.jhu.edu/">Johns Hopkins University</a> and my Bachelor of Science (Honours) in Statistics from the
       <a href="https://www.sydney.edu.au/">University of Sydney</a>.
     </p>
 
