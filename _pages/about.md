@@ -44,13 +44,13 @@ I am especially interested in three connected directions:
 
 **I am applying to Ph.D. programs for Fall 2027** and welcome conversations with potential advisors and collaborators working on AI for biology, spatial genomics, and development and disease.
 
-## Education {#education}
-
-{% include custom_education.liquid %}
-
 ## Research Experience {#research-experience}
 
 {% include research_experience.liquid %}
+
+## Education {#education}
+
+{% include custom_education.liquid %}
 
 ## Selected Publications {#selected-publications}
 
