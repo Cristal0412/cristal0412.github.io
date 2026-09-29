@@ -29,7 +29,7 @@ cv:
         area: Statistics
         studyType: Bachelor of Science (Honours)
         start_date: 2020
-        end_date: 2023
+        end_date: 2024
         highlights:
           - "GPA: 3.90/4.00; rank: 1/200; supervised by Prof. Jean Yang"
 
@@ -49,7 +49,7 @@ cv:
         position: Research Assistant
         location: Baltimore, Maryland
         start_date: 2024
-        end_date: Present
+        end_date: 2026
         summary: Supervised by Prof. Carlo Iomini
         highlights:
           - Studied cilia-dependent Hedgehog signaling in meibomian gland development, progenitor maintenance, lipid homeostasis, and dry eye disease.
@@ -117,7 +117,19 @@ cv:
       - name: Computational biology
         keywords: [Single-cell transcriptomics, Spatial transcriptomics, Statistical modeling, Machine learning, Bioinformatics]
       - name: Experimental biology
-        keywords: [Cell and tissue culture, Immunostaining, Confocal imaging, Two-photon imaging, PCR, qRT-PCR, Western blot, Genotyping, DNA/RNA extraction, Mouse procedures]
+        keywords:
+          [
+            Cell and tissue culture,
+            Immunostaining,
+            Confocal imaging,
+            Two-photon imaging,
+            PCR,
+            qRT-PCR,
+            Western blot,
+            Genotyping,
+            DNA/RNA extraction,
+            Mouse procedures,
+          ]
 
     Honors and Awards:
       - title: Vice Chancellor's Global Mobility Scholarship

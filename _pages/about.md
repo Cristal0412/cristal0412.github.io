@@ -28,17 +28,21 @@ latest_posts:
   limit: 3
 ---
 
-I am a Research Assistant in the [Qiu Lab at Stanford University](https://www.devo-evo.com/people/xiaoying/), where I work at the intersection of **AI, genomics, development, and disease**. My current research focuses on 3D profiling of early mouse embryonic development and spatial profiling and modeling of cardiomyopathy recovery in children. More broadly, I am interested in developing and applying AI methods to understand complex biological systems and accelerate drug discovery and therapeutic development.
+I am a Research Assistant in the [Qiu Lab at Stanford University](https://www.devo-evo.com/people/xiaoying/), working on **AI for biology**. My current projects focus on 3D profiling of early mouse embryonic development and spatial profiling and modeling of cardiomyopathy recovery in children.
 
-I received an M.S.E. in Biomedical Engineering from Johns Hopkins University and a B.Sc. (Honours) in Statistics from the University of Sydney. My broader interests include:
+My background spans **statistics, biomedical engineering, and experimental biology**. I received an M.S.E. in Biomedical Engineering from Johns Hopkins University and a B.Sc. (Honours) in Statistics from the University of Sydney. Across these settings, I have worked on spatial transcriptomics, single-cell benchmarking, and the molecular mechanisms of tissue development and disease.
 
-- **AI for biology:** foundation models and computational methods for biological discovery.
-- **Single-cell and spatial genomics:** quantitative analysis and modeling of cellular organization and dynamics.
-- **Development, disease, and therapeutics:** combining computational, imaging, and experimental approaches to study tissue development, regeneration, and dysfunction and identify opportunities for therapeutic discovery.
+## Research Goal {#research-goal}
 
-Previously, I studied cilia-dependent Hedgehog signaling in meibomian gland development and dysfunction at Johns Hopkins, and worked on spatial transcriptomics clustering and quantitative benchmarking in single-cell analysis at the University of Sydney.
+**My goal is to develop AI methods that connect molecular and cellular measurements to tissue-level behavior, helping explain development and disease and guide therapeutic discovery.**
 
-I am applying to Ph.D. programs for Fall 2027 and would be delighted to connect with potential advisors whose research aligns with these interests.
+I am especially interested in three connected directions:
+
+- **AI for biological discovery:** developing computational methods and exploring foundation models that integrate genomics and imaging to generate testable biological hypotheses.
+- **Cells in spatial context:** modeling how cellular states and spatial organization contribute to tissue development and function.
+- **Disease and recovery:** combining computational analysis with experimental biology to understand tissue dysfunction and identify opportunities for therapeutic intervention.
+
+**I am applying to Ph.D. programs for Fall 2027** and welcome conversations with potential advisors and collaborators working on AI for biology, spatial genomics, and development and disease.
 
 ## Education {#education}
 
@@ -46,18 +50,29 @@ I am applying to Ph.D. programs for Fall 2027 and would be delighted to connect 
 
 ## Research Experience {#research-experience}
 
-#### Research Assistant · Qiu Lab, Stanford University | 2026–Present
+<small class="text-muted">2026–Present</small>
 
-Working on AI for biology, including 3D profiling of early mouse embryonic development and spatial profiling and modeling of cardiomyopathy recovery in children.
+#### Qiu Lab @ Stanford University
 
-#### Research Assistant · Wilmer Eye Institute, Johns Hopkins University | 2024–Present
+<p class="text-muted"><small>Stanford, California, USA</small></p>
 
-Studied cilia-dependent Hedgehog signaling in meibomian gland development, progenitor maintenance, lipid homeostasis, and dry eye disease. Combined conditional knockout mouse models, transcriptomics, quantitative imaging, and experimental biology.
+Working with **Dr. Xiaojie Qiu** on **3D profiling of early mouse embryonic development** and **spatial profiling and modeling of cardiomyopathy recovery in children**, connecting genomics, imaging, and computational approaches to study development and disease.
 
-#### Research Projects · University of Sydney | 2023
+<small class="text-muted">2024–2026</small>
 
-- **Spatial transcriptomics clustering:** compared K-means, Seurat, BayesSpace, and STitch3D across simulated and real datasets.
-- **Single-cell benchmarking:** screened 563 studies and evaluated 245 papers using a structured framework with more than 70 criteria; applied regression analyses to study benchmarking practices.
+#### Wilmer Eye Institute @ Johns Hopkins University
+
+<p class="text-muted"><small>Baltimore, Maryland, USA</small></p>
+
+Worked with **Prof. Carlo Iomini** on **cilia-dependent Hedgehog signaling in meibomian gland development and disease**. Combined conditional knockout mouse models, transcriptomics, and quantitative imaging to study progenitor maintenance, lipid homeostasis, and dry eye disease.
+
+<small class="text-muted">2023–2024</small>
+
+#### University of Sydney
+
+<p class="text-muted"><small>Sydney, Australia</small></p>
+
+Worked with **Prof. Jean Yang** on **spatial transcriptomics clustering** and **quantitative benchmarking in single-cell analysis**. Compared clustering methods across simulated and real datasets, and evaluated 245 papers from 563 screened studies using more than 70 criteria to examine benchmarking practices.
 
 ## Selected Publications {#selected-publications}
 
@@ -67,8 +82,13 @@ Studied cilia-dependent Hedgehog signaling in meibomian gland development, proge
 
 ## Teaching {#teaching}
 
-- **Teaching Assistant, Cell & Tissue Engineering Lab**, Johns Hopkins University | 2025–Present. Mentored students in cell culture, gene delivery, metabolic glycoengineering, tissue modeling, and scientific reporting.
-- **Teaching Assistant**, University of Sydney | 2023. Led tutorials in probability, statistical inference, R programming, data analytics, and introductory machine learning.
+#### Teaching Assistant · Cell & Tissue Engineering Lab, Johns Hopkins University | 2025–Present
+
+Mentored students in cell culture, gene delivery, metabolic glycoengineering, tissue modeling, and scientific reporting.
+
+#### Teaching Assistant · University of Sydney | 2023
+
+Led tutorials in probability, statistical inference, R programming, data analytics, and introductory machine learning.
 
 ## Skills {#skills}
 
