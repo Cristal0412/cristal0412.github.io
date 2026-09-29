@@ -50,29 +50,7 @@ I am especially interested in three connected directions:
 
 ## Research Experience {#research-experience}
 
-<small class="text-muted">2026–Present</small>
-
-#### Qiu Lab @ Stanford University
-
-<p class="text-muted"><small>Stanford, California, USA</small></p>
-
-Working with **Dr. Xiaojie Qiu** on **3D profiling of early mouse embryonic development** and **spatial profiling and modeling of cardiomyopathy recovery in children**, connecting genomics, imaging, and computational approaches to study development and disease.
-
-<small class="text-muted">2024–2026</small>
-
-#### Wilmer Eye Institute @ Johns Hopkins University
-
-<p class="text-muted"><small>Baltimore, Maryland, USA</small></p>
-
-Worked with **Prof. Carlo Iomini** on **cilia-dependent Hedgehog signaling in meibomian gland development and disease**. Combined conditional knockout mouse models, transcriptomics, and quantitative imaging to study progenitor maintenance, lipid homeostasis, and dry eye disease.
-
-<small class="text-muted">2023–2024</small>
-
-#### University of Sydney
-
-<p class="text-muted"><small>Sydney, Australia</small></p>
-
-Worked with **Prof. Jean Yang** on **spatial transcriptomics clustering** and **quantitative benchmarking in single-cell analysis**. Compared clustering methods across simulated and real datasets, and evaluated 245 papers from 563 screened studies using more than 70 criteria to examine benchmarking practices.
+{% include research_experience.liquid %}
 
 ## Selected Publications {#selected-publications}
 
