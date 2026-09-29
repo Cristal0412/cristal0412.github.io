@@ -23,14 +23,63 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "Education, research experience, publications, teaching, and technical skills. Use the PDF icon to download the full CV.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "dropdown-full-cv-page",
+              title: "Full CV page",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/cv/";
+              },
+            },{id: "dropdown-download-cv-pdf",
+              title: "Download CV (PDF)",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/assets/pdf/Xiaoying_Liao_CV.pdf";
+              },
+            },{id: "dropdown-research-experience",
+              title: "Research Experience",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/#research-experience";
+              },
+            },{id: "dropdown-education",
+              title: "Education",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/#education";
+              },
+            },{id: "dropdown-selected-publications",
+              title: "Selected Publications",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/#selected-publications";
+              },
+            },{id: "dropdown-teaching",
+              title: "Teaching",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/#teaching";
+              },
+            },{id: "dropdown-skills",
+              title: "Skills",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/#skills";
+              },
+            },{id: "dropdown-honors-amp-awards",
+              title: "Honors &amp; Awards",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/#honors-awards";
+              },
+            },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
