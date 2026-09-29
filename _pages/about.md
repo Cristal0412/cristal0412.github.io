@@ -40,6 +40,10 @@ Previously, I studied cilia-dependent Hedgehog signaling in meibomian gland deve
 
 Outside the lab, I enjoy hiking and playing tennis.
 
+## Education {#education}
+
+{% include custom_education.liquid %}
+
 ## Research Experience {#research-experience}
 
 ### Research Assistant · Qiu Lab, Stanford University | 2026–Present
@@ -54,10 +58,6 @@ Studied cilia-dependent Hedgehog signaling in meibomian gland development, proge
 
 - **Spatial transcriptomics clustering:** compared K-means, Seurat, BayesSpace, and STitch3D across simulated and real datasets.
 - **Single-cell benchmarking:** screened 563 studies and evaluated 245 papers using a structured framework with more than 70 criteria; applied regression analyses to study benchmarking practices.
-
-## Education {#education}
-
-{% include custom_education.liquid %}
 
 ## Selected Publications {#selected-publications}
 
