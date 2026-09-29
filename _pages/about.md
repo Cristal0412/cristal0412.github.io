@@ -28,17 +28,17 @@ latest_posts:
   limit: 3
 ---
 
-I am a Research Assistant in the [Qiu Lab at Stanford University](https://www.devo-evo.com/people/xiaoying/), where I work at the intersection of **AI, genomics, development, and disease**. My current research focuses on 3D profiling of early mouse embryonic development and spatial profiling and modeling of cardiomyopathy recovery in children.
+I am a Research Assistant in the [Qiu Lab at Stanford University](https://www.devo-evo.com/people/xiaoying/), where I work at the intersection of **AI, genomics, development, and disease**. My current research focuses on 3D profiling of early mouse embryonic development and spatial profiling and modeling of cardiomyopathy recovery in children. More broadly, I am interested in developing and applying AI methods to understand complex biological systems and accelerate drug discovery and therapeutic development.
 
 I received an M.S.E. in Biomedical Engineering from Johns Hopkins University and a B.Sc. (Honours) in Statistics from the University of Sydney. My broader interests include:
 
 - **AI for biology:** foundation models and computational methods for biological discovery.
 - **Single-cell and spatial genomics:** quantitative analysis and modeling of cellular organization and dynamics.
-- **Development and disease:** combining computational, imaging, and experimental approaches to study tissue development, regeneration, and dysfunction.
+- **Development, disease, and therapeutics:** combining computational, imaging, and experimental approaches to study tissue development, regeneration, and dysfunction and identify opportunities for therapeutic discovery.
 
 Previously, I studied cilia-dependent Hedgehog signaling in meibomian gland development and dysfunction at Johns Hopkins, and worked on spatial transcriptomics clustering and quantitative benchmarking in single-cell analysis at the University of Sydney.
 
-Outside the lab, I enjoy hiking and playing tennis.
+I am applying to Ph.D. programs for Fall 2027 and would be delighted to connect with potential advisors whose research aligns with these interests.
 
 ## Education {#education}
 
@@ -46,15 +46,15 @@ Outside the lab, I enjoy hiking and playing tennis.
 
 ## Research Experience {#research-experience}
 
-### Research Assistant · Qiu Lab, Stanford University | 2026–Present
+#### Research Assistant · Qiu Lab, Stanford University | 2026–Present
 
 Working on AI for biology, including 3D profiling of early mouse embryonic development and spatial profiling and modeling of cardiomyopathy recovery in children.
 
-### Research Assistant · Wilmer Eye Institute, Johns Hopkins University | 2024–Present
+#### Research Assistant · Wilmer Eye Institute, Johns Hopkins University | 2024–Present
 
 Studied cilia-dependent Hedgehog signaling in meibomian gland development, progenitor maintenance, lipid homeostasis, and dry eye disease. Combined conditional knockout mouse models, transcriptomics, quantitative imaging, and experimental biology.
 
-### Research Projects · University of Sydney | 2023
+#### Research Projects · University of Sydney | 2023
 
 - **Spatial transcriptomics clustering:** compared K-means, Seurat, BayesSpace, and STitch3D across simulated and real datasets.
 - **Single-cell benchmarking:** screened 563 studies and evaluated 245 papers using a structured framework with more than 70 criteria; applied regression analyses to study benchmarking practices.
