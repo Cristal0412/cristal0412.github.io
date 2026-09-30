@@ -85,7 +85,7 @@
       line-height: 1.4;
 
       a {
-        color: #d62869;
+        color: var(--global-theme-color);
         text-decoration: none;
 
         &:hover {
@@ -98,10 +98,6 @@
       margin-bottom: 0.35rem;
     }
   }
-}
-
-html[data-theme="dark"] .research-experience .education-entry .education-school a {
-  color: #ff8ab2;
 }
 
 @media (max-width: 850px) {
