@@ -51,7 +51,7 @@ latest_posts:
     <div class="phd-callout">
       <div class="phd-title">I am actively seeking Ph.D. opportunities for Fall 2027.</div>
       <div class="phd-description">
-        I am interested in developing AI methods for understanding biological systems and enabling scientific discovery. Please feel free to reach out!
+        I am particularly interested in integrating experimental and computational approaches and using AI to discover new biological mechanisms and insights.
       </div>
     </div>
 
@@ -105,6 +105,8 @@ latest_posts:
 - Second Prize, China National High School Biology Olympiad (2018).
 
 [Download the full CV (PDF)](/assets/pdf/Xiaoying_Liao_CV.pdf)
+
+{% include homepage_impact.liquid %}
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {

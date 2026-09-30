@@ -76,6 +76,32 @@
       }
     }
   }
+
+  .education-entry {
+    .education-school {
+      margin: 0 0 0.35rem;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.4;
+
+      a {
+        color: #2563eb;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .education-meta {
+      margin-bottom: 0.35rem;
+    }
+  }
+}
+
+html[data-theme="dark"] .research-experience .education-entry .education-school a {
+  color: #7aa7ff;
 }
 
 @media (max-width: 850px) {
