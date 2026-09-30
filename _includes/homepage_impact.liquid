@@ -16,7 +16,9 @@
       </svg>
       <script id="_wauc41">
         var _wau = window._wau || [];
-        _wau.push(['map', 'spxsvwagk0', 'c41', '480', '275', 'girly', 'cross-pink']);
+        var visitorMapWidth = Math.min(540, Math.floor(document.currentScript.parentElement.clientWidth));
+        var visitorMapHeight = Math.round((visitorMapWidth * 320) / 540);
+        _wau.push(['map', 'spxsvwagk0', 'c41', String(visitorMapWidth), String(visitorMapHeight), 'girly', 'cross-pink']);
       </script>
       <script async src="https://waust.at/m.js"></script>
       <noscript><a href="https://whos.amung.us/stats/spxsvwagk0/" target="_blank" rel="noopener noreferrer">View visitor map</a></noscript>

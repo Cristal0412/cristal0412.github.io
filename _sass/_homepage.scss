@@ -187,7 +187,7 @@
   --impact-accent: #d62869;
 
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.65fr);
   gap: 1.35rem;
   margin: 3rem 0 1rem;
 
@@ -222,7 +222,7 @@
 
   .visitor-map-widget {
     display: flex;
-    min-height: 295px;
+    min-height: 340px;
     align-items: center;
     justify-content: center;
     overflow: hidden;
