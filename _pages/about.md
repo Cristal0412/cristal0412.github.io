@@ -23,7 +23,7 @@ latest_posts:
   }
 </style>
 
-<div class="home-hero">
+<div class="home-hero" id="biography">
   <div class="home-portrait">
     <img src="{{ '/assets/img/xiaoying_liao.jpg' | relative_url }}" alt="Xiaoying Liao">
     <p class="home-motto">“Dream deeply. Plan thoughtfully. Live passionately.”</p>
@@ -169,6 +169,16 @@ latest_posts:
 [Download the full CV (PDF)](/assets/pdf/Xiaoying_Liao_CV.pdf)
 
 {% include homepage_impact.liquid %}
+
+<nav class="home-contact-rail" aria-label="Quick contact links">
+  <a href="mailto:xliao@stanford.edu" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+  <a href="{{ '/assets/pdf/Xiaoying_Liao_CV.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Curriculum Vitae" title="Curriculum Vitae"><span>cv</span></a>
+  <a href="https://www.linkedin.com/in/cristal-liao-64b4721b9/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+  <a href="https://github.com/Cristal0412" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+  <a href="https://scholar.google.com/citations?user=UdXzuvkAAAAJ" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></a>
+</nav>
+
+<script src="{{ '/assets/js/homepage-interactions.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
