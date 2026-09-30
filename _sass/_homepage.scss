@@ -48,6 +48,10 @@
   padding: 0;
   list-style: none;
 
+  li span {
+    color: inherit;
+  }
+
   li {
     display: flex;
     align-items: center;
