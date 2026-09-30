@@ -187,8 +187,12 @@
   --impact-accent: #d62869;
 
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.65fr);
-  gap: 1.35rem;
+  position: relative;
+  left: 50%;
+  width: min(1100px, calc(100vw - 3rem));
+  transform: translateX(-50%);
+  grid-template-columns: minmax(0, 1.65fr) minmax(300px, 1fr);
+  gap: 3rem;
   margin: 3rem 0 1rem;
 
   .impact-card {
@@ -217,15 +221,19 @@
   .visitor-map-card {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
     background: #fff;
   }
 
   .visitor-map-widget {
     display: flex;
-    min-height: 340px;
+    min-height: clamp(220px, 32vw, 360px);
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-top: 1rem;
     border-top: 1px solid var(--global-divider-color);
 
     img,
@@ -237,6 +245,11 @@
       height: auto;
     }
 
+    > span {
+      position: relative;
+      margin-right: 0 !important;
+    }
+
     > span > img:first-child {
       filter: url("#visitor-map-pastel");
     }
@@ -245,6 +258,15 @@
       // Override the widget's inline filter while retaining a white marker outline.
       filter: url("#visitor-map-marker") drop-shadow(0 0 1px #fff) !important;
     }
+  }
+
+  #mapmyvisitors-widget {
+    max-width: 100%;
+  }
+
+  #mapmyvisitors-widget .jvectormap-marker {
+    fill: #c2185b !important;
+    stroke: #fff !important;
   }
 
   .impact-action {
@@ -391,6 +413,13 @@ html[data-theme="dark"] .home-impact {
 @media (prefers-reduced-motion: reduce) {
   .home-intro .typing-cursor {
     animation: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .home-impact {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 

@@ -1,29 +1,50 @@
 {% assign impact = site.data.scholar_impact %}
+{% assign visitor = site.data.visitor_map %}
 <div class="home-impact" aria-label="Visitor map and Google Scholar impact">
   <section class="impact-card visitor-map-card" aria-labelledby="visitor-map-heading">
     <h3 id="visitor-map-heading">Visitor Map</h3>
     <div class="visitor-map-widget">
-      <svg class="visitor-map-palette" width="0" height="0" aria-hidden="true" focusable="false">
-        <defs>
-          <filter id="visitor-map-pastel" color-interpolation-filters="sRGB">
-            <feColorMatrix type="matrix" values="0.204 -0.031 0 0 0.826 -0.024 0.171 0 0 0.853 -0.041 0.126 0 0 0.915 0 0 0 1 0"></feColorMatrix>
-          </filter>
-          <filter id="visitor-map-marker" color-interpolation-filters="sRGB">
-            <feFlood flood-color="#c2185b"></feFlood>
-            <feComposite in2="SourceAlpha" operator="in"></feComposite>
-          </filter>
-        </defs>
-      </svg>
-      <script id="_wauc41">
-        var _wau = window._wau || [];
-        var visitorMapWidth = Math.min(540, Math.floor(document.currentScript.parentElement.clientWidth));
-        var visitorMapHeight = Math.round((visitorMapWidth * 320) / 540);
-        _wau.push(['map', 'spxsvwagk0', 'c41', String(visitorMapWidth), String(visitorMapHeight), 'girly', 'cross-pink']);
-      </script>
-      <script async src="https://waust.at/m.js"></script>
-      <noscript><a href="https://whos.amung.us/stats/spxsvwagk0/" target="_blank" rel="noopener noreferrer">View visitor map</a></noscript>
+      {% if visitor.mapmyvisitors_id != blank %}
+        <script
+          id="mapmyvisitors"
+          src="https://mapmyvisitors.com/map.js?d={{ visitor.mapmyvisitors_id | url_encode }}&amp;co=d8ecf6&amp;cl=f7d8e4&amp;ct=1f2937&amp;w=a"
+        ></script>
+        <noscript>
+          <img
+            src="https://mapmyvisitors.com/map.png?d={{ visitor.mapmyvisitors_id | url_encode }}&amp;co=d8ecf6&amp;cl=f7d8e4"
+            alt="Visitor locations and pageviews for Xiaoying Liao's website"
+            loading="lazy"
+          >
+        </noscript>
+      {% else %}
+        <svg class="visitor-map-palette" width="0" height="0" aria-hidden="true" focusable="false">
+          <defs>
+            <filter id="visitor-map-pastel" color-interpolation-filters="sRGB">
+              <feColorMatrix type="matrix" values="0.204 -0.031 0 0 0.826 -0.024 0.171 0 0 0.853 -0.041 0.126 0 0 0.915 0 0 0 1 0"></feColorMatrix>
+            </filter>
+            <filter id="visitor-map-marker" color-interpolation-filters="sRGB">
+              <feFlood flood-color="#c2185b"></feFlood>
+              <feComposite in2="SourceAlpha" operator="in"></feComposite>
+            </filter>
+          </defs>
+        </svg>
+        <script id="_wauc41">
+          var _wau = window._wau || [];
+          var visitorMapWidth = Math.min(650, Math.floor(document.currentScript.parentElement.clientWidth));
+          var visitorMapHeight = Math.round((visitorMapWidth * 360) / 650);
+          _wau.push(['map', 'spxsvwagk0', 'c41', String(visitorMapWidth), String(visitorMapHeight), 'girly', 'cross-pink']);
+        </script>
+        <script async src="https://waust.at/m.js"></script>
+        <noscript><a href="https://whos.amung.us/stats/spxsvwagk0/" target="_blank" rel="noopener noreferrer">View visitor map</a></noscript>
+      {% endif %}
     </div>
-    <a class="impact-action" href="https://whos.amung.us/stats/spxsvwagk0/" target="_blank" rel="noopener noreferrer">View visitor stats</a>
+    {% if visitor.mapmyvisitors_id != blank %}
+      {% if visitor.stats_url != blank %}
+        <a class="impact-action" href="{{ visitor.stats_url | escape }}" target="_blank" rel="noopener noreferrer">View visitor stats</a>
+      {% endif %}
+    {% else %}
+      <a class="impact-action" href="https://whos.amung.us/stats/spxsvwagk0/" target="_blank" rel="noopener noreferrer">View visitor stats</a>
+    {% endif %}
   </section>
 
   <section class="impact-card scholar-impact-card" aria-labelledby="scholar-impact-heading">

@@ -1,0 +1,4 @@
+# Set this to the d= value from the site's own MapMyVisitors embed code.
+mapmyvisitors_id: ""
+# Set this to the site's own MapMyVisitors statistics page.
+stats_url: ""
