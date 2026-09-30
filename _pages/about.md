@@ -88,15 +88,9 @@ latest_posts:
 
 [See all publications](/publications/)
 
-## Teaching {#teaching}
+## Teaching Experience {#teaching}
 
-#### Teaching Assistant · Cell & Tissue Engineering Lab, Johns Hopkins University | 2025–Present
-
-Mentored students in cell culture, gene delivery, metabolic glycoengineering, tissue modeling, and scientific reporting.
-
-#### Teaching Assistant · University of Sydney | 2023
-
-Led tutorials in probability, statistical inference, R programming, data analytics, and introductory machine learning.
+{% include teaching_experience.liquid %}
 
 ## Skills {#skills}
 
