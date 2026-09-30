@@ -14,6 +14,17 @@
       object-fit: cover;
       object-position: center;
     }
+
+    .home-motto {
+      margin: 0.55rem 0 0;
+      color: var(--global-text-color-light);
+      font-family: Georgia, serif;
+      font-size: 0.95rem;
+      font-style: italic;
+      font-weight: 600;
+      line-height: 1.45;
+      text-align: center;
+    }
   }
 }
 

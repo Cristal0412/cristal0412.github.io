@@ -25,7 +25,8 @@ latest_posts:
 
 <div class="home-hero">
   <div class="home-portrait">
-    <img src="{{ '/assets/img/xiaoying_liao.png' | relative_url }}" alt="Xiaoying Liao">
+    <img src="{{ '/assets/img/xiaoying_liao.jpg' | relative_url }}" alt="Xiaoying Liao">
+    <p class="home-motto">“Dream deeply. Plan thoughtfully. Live passionately.”</p>
   </div>
 
   <div class="home-intro">
