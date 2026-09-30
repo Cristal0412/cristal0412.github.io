@@ -285,10 +285,8 @@ html[data-theme="dark"] .navbar.navbar-light .site-name {
 }
 
 .home-service {
-  display: grid;
-  grid-template-columns: 2.4rem minmax(0, 1fr);
-  gap: 0.8rem;
-  padding: 1rem;
+  width: calc((100% - 2rem) / 2);
+  padding: 1.25rem;
   margin: 1.2rem 0 2rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 10px;
@@ -303,10 +301,13 @@ html[data-theme="dark"] .navbar.navbar-light .site-name {
     color: var(--global-theme-color);
     background: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
     font-size: 1.1rem;
+    margin-bottom: 0.8rem;
   }
 
   h3 {
-    margin: 0 0 0.6rem;
+    margin: 0 0 0.8rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--global-divider-color);
     font-size: 0.95rem;
     font-weight: 600;
   }
@@ -321,10 +322,24 @@ html[data-theme="dark"] .navbar.navbar-light .site-name {
   }
 
   li {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
     padding: 0.3rem 0.65rem;
     border: 1px solid var(--global-divider-color);
     border-radius: 6px;
     font-size: 0.85rem;
+    background: color-mix(in srgb, var(--global-theme-color) 6%, var(--global-card-bg-color));
+  }
+
+  li span {
+    color: var(--global-text-color-light);
+    font-size: 0.75rem;
+    letter-spacing: 0.025em;
+  }
+
+  @media (max-width: 700px) {
+    width: 100%;
   }
 }
 

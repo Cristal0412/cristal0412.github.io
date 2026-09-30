@@ -147,16 +147,15 @@ latest_posts:
   </section>
 </div>
 
-## Academic Service {#academic-service}
+## Academic Services {#academic-service}
 
 <div class="home-service">
-  <span class="service-icon"><i class="fa-solid fa-file-circle-check" aria-hidden="true"></i></span>
+  <span class="service-icon"><i class="fa-solid fa-user-check" aria-hidden="true"></i></span>
   <div>
-    <h3>Conference Reviewer</h3>
+    <h3>Conference Reviewing</h3>
     <ul class="service-venues" aria-label="Reviewed conferences">
-      <li>AAAI 2025</li>
-      <li>AAAI 2026</li>
-      <li>ICLR 2027</li>
+      <li><strong>AAAI</strong><span>2025–2026</span></li>
+      <li><strong>ICLR</strong><span>2027</span></li>
     </ul>
   </div>
 </div>
