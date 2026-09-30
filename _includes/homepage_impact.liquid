@@ -69,9 +69,24 @@
           <strong>{{ impact.summary.paper_count }}</strong><span>Indexed papers</span>
         </div>
       </div>
-      <svg class="scholar-impact-chart" viewBox="0 0 300 70" preserveAspectRatio="none" role="img" aria-label="Citation history from daily snapshots">
-        <polyline points="{{ impact.chart_points }}"></polyline>
-      </svg>
+      {% assign chart_end = impact.chart_points | split: ' ' | last | split: ',' %}
+      <div class="scholar-chart-history">
+        <svg
+          class="scholar-impact-chart"
+          viewBox="0 0 300 70"
+          preserveAspectRatio="none"
+          role="img"
+          aria-label="Citation history from verified snapshots"
+        >
+          <polygon class="scholar-chart-area" points="0,70 {{ impact.chart_points }} 300,70"></polygon>
+          <polyline points="{{ impact.chart_points }}" vector-effect="non-scaling-stroke"></polyline>
+          <circle class="scholar-chart-endpoint" cx="{{ chart_end[0] }}" cy="{{ chart_end[1] }}" r="3.5" vector-effect="non-scaling-stroke"></circle>
+        </svg>
+        <div class="scholar-chart-dates">
+          <span>{{ impact.history.first.date | date: '%b %d' }}</span>
+          <span>{{ impact.history.last.date | date: '%b %d' }}</span>
+        </div>
+      </div>
       <a class="scholar-top-paper" href="{{ impact.top_paper.url | escape }}" target="_blank" rel="noopener noreferrer">
         <span>Top cited paper · {{ impact.top_paper.citations }} citations</span>
         <strong>{{ impact.top_paper.title | escape }}</strong>

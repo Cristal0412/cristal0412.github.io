@@ -184,7 +184,7 @@
 }
 
 .home-impact {
-  --impact-accent: #d62869;
+  --impact-accent: var(--global-theme-color);
 
   display: grid;
   position: relative;
@@ -277,10 +277,23 @@
     font-weight: 600;
   }
 
+  .scholar-impact-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border: 0;
+    background: transparent;
+  }
+
   .scholar-impact-panel {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    flex: 1;
+    gap: 0.9rem;
+    padding: 1.1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 9px;
+    background: var(--global-card-bg-color);
   }
 
   .scholar-impact-updated {
@@ -288,7 +301,7 @@
     justify-content: space-between;
     gap: 1rem;
     color: var(--global-text-color-light);
-    font-size: 0.78rem;
+    font-size: 0.7rem;
 
     span {
       color: var(--impact-accent);
@@ -303,13 +316,13 @@
     gap: 0.55rem;
 
     strong {
-      font-size: 3rem;
+      font-size: 3.2rem;
       line-height: 1;
     }
 
     span {
       color: var(--global-text-color-light);
-      font-size: 0.78rem;
+      font-size: 0.72rem;
       font-weight: 600;
       text-transform: uppercase;
     }
@@ -322,7 +335,7 @@
     border-bottom: 1px solid var(--global-divider-color);
 
     div {
-      padding: 0.65rem 0.35rem;
+      padding: 0.7rem 0.55rem;
       border-right: 1px solid var(--global-divider-color);
 
       &:last-child {
@@ -341,20 +354,43 @@
     }
 
     span {
+      margin-top: 0.3rem;
       color: var(--global-text-color-light);
-      font-size: 0.7rem;
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-transform: uppercase;
     }
   }
 
   .scholar-impact-chart {
     display: block;
     width: 100%;
-    height: 70px;
+    height: 100px;
+    overflow: visible;
     fill: none;
     stroke: var(--impact-accent);
     stroke-width: 2.5;
     stroke-linecap: round;
     stroke-linejoin: round;
+  }
+
+  .scholar-chart-area {
+    fill: var(--impact-accent);
+    fill-opacity: 0.08;
+    stroke: none;
+  }
+
+  .scholar-chart-endpoint {
+    fill: var(--global-card-bg-color);
+    stroke-width: 2;
+  }
+
+  .scholar-chart-dates {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+    color: var(--global-text-color-light);
+    font-size: 0.65rem;
   }
 
   .scholar-top-paper {
@@ -376,7 +412,7 @@
     strong {
       margin-top: 0.2rem;
       color: var(--global-text-color);
-      font-size: 0.83rem;
+      font-size: 0.87rem;
       line-height: 1.4;
     }
   }
@@ -391,8 +427,6 @@
 }
 
 html[data-theme="dark"] .home-impact {
-  --impact-accent: #ff8ab2;
-
   .visitor-map-card {
     background: var(--global-card-bg-color);
   }
