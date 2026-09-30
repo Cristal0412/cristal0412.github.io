@@ -12,7 +12,7 @@ children:
     permalink: /assets/pdf/Xiaoying_Liao_CV.pdf
   - title: divider
   - title: Research Experience
-    permalink: /#research-experience
+    permalink: /#experience
   - title: Education
     permalink: /#education
   - title: Selected Publications

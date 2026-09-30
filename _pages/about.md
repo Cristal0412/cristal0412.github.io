@@ -74,7 +74,16 @@ latest_posts:
   </div>
 </div>
 
-## Research Experience {#research-experience}
+<nav class="home-section-nav" aria-label="On this page">
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#selected-publications">Publications</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#skills">Skills</a>
+  <a href="#honors-awards">Honors &amp; Awards</a>
+</nav>
+
+## Experience {#experience}
 
 {% include research_experience.liquid %}
 
