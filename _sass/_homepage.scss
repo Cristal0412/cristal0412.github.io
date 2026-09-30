@@ -136,10 +136,10 @@
 }
 
 .home-impact {
-  --impact-accent: #2563eb;
+  --impact-accent: #d62869;
 
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr);
   gap: 1.35rem;
   margin: 3rem 0 1rem;
 
@@ -169,11 +169,12 @@
   .visitor-map-card {
     display: flex;
     flex-direction: column;
+    background: #fff1f6;
   }
 
   .visitor-map-widget {
     display: flex;
-    min-height: 260px;
+    min-height: 295px;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -311,7 +312,11 @@
 }
 
 html[data-theme="dark"] .home-impact {
-  --impact-accent: #7aa7ff;
+  --impact-accent: #ff8ab2;
+
+  .visitor-map-card {
+    background: #38232d;
+  }
 }
 
 @keyframes typing-blink {
