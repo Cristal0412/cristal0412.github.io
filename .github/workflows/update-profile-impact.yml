@@ -20,6 +20,8 @@ jobs:
       - name: Install parser
         run: python -m pip install beautifulsoup4
       - name: Refresh Google Scholar data
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: python bin/update_profile_impact.py
       - name: Commit and deploy updated data
         env:

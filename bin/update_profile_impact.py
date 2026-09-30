@@ -2,6 +2,7 @@
 """Refresh the homepage Google Scholar snapshot from the public author profile."""
 
 import json
+import os
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -36,8 +37,7 @@ def chart_points(history):
     )
 
 
-def main():
-    user_id = scholar_id()
+def fetch_public_profile(user_id):
     profile_url = "https://scholar.google.com/citations?" + urlencode(
         {"user": user_id, "hl": "en", "pagesize": 100}
     )
@@ -72,27 +72,74 @@ def main():
         )
     if not papers:
         raise ValueError("Google Scholar returned no readable publications")
+    return name.get_text(" ", strip=True), [stats[0], stats[2], stats[4]], papers, profile_url
+
+
+def fetch_serpapi_profile(user_id, api_key):
+    query = urlencode({"engine": "google_scholar_author", "author_id": user_id, "hl": "en", "num": 100, "api_key": api_key})
+    with urlopen(f"https://serpapi.com/search.json?{query}", timeout=45) as response:
+        result = json.load(response)
+    if result.get("error"):
+        raise ValueError(f"SerpApi could not fetch Google Scholar: {result['error']}")
+    table = result.get("cited_by", {}).get("table", [])
+    articles = result.get("articles", [])
+    if len(table) < 3 or not articles:
+        raise ValueError("SerpApi did not return a complete author profile")
+
+    papers = []
+    for article in articles:
+        cited_by = article.get("cited_by") or {}
+        citations = cited_by.get("value", 0) if isinstance(cited_by, dict) else 0
+        citation_id = article.get("citation_id", "")
+        link = (
+            "https://scholar.google.com/citations?"
+            + urlencode({"view_op": "view_citation", "user": user_id, "citation_for_view": citation_id})
+            if citation_id
+            else article.get("link", "")
+        )
+        papers.append({"title": article.get("title", "Untitled paper"), "citations": int(str(citations).replace(",", "")), "url": link})
+
+    return (
+        result.get("author", {}).get("name", "Xiaoying Liao"),
+        [table[0]["citations"]["all"], table[1]["h_index"]["all"], table[2]["i10_index"]["all"]],
+        papers,
+        "https://scholar.google.com/citations?" + urlencode({"user": user_id, "hl": "en", "pagesize": 100}),
+    )
+
+
+def main():
+    user_id = scholar_id()
+    api_key = os.environ.get("SERPAPI_KEY")
+    try:
+        name, stats, papers, profile_url = (
+            fetch_serpapi_profile(user_id, api_key) if api_key else fetch_public_profile(user_id)
+        )
+    except Exception as exc:
+        if os.environ.get("CI") and DATA_PATHS[0].exists():
+            print(f"Scholar refresh unavailable; keeping last verified snapshot: {exc}")
+            return
+        raise
 
     today = datetime.now(ZoneInfo("America/Los_Angeles")).date().isoformat()
     previous = json.loads(DATA_PATHS[0].read_text()) if DATA_PATHS[0].exists() else {}
     history = [point for point in previous.get("history", []) if point.get("date") != today]
-    history.append({"date": today, "total_citations": stats[0]})
+    history.append({"date": today, "total_citations": int(stats[0])})
     history = sorted(history, key=lambda point: point["date"])[-365:]
 
     impact = {
         "profile": {
-            "name": name.get_text(" ", strip=True),
+            "name": name,
             "scholar_id": user_id,
             "scholar_url": profile_url,
         },
         "summary": {
-            "total_citations": stats[0],
-            "h_index": stats[2],
-            "i10_index": stats[4],
+            "total_citations": int(stats[0]),
+            "h_index": int(stats[1]),
+            "i10_index": int(stats[2]),
             "paper_count": len(papers),
             "updated": today,
             "updated_at_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "source": "Google Scholar public profile",
+            "source": "SerpApi Google Scholar author" if api_key else "Google Scholar public profile",
         },
         "history": history,
         "chart_points": chart_points(history),
