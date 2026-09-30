@@ -30,7 +30,7 @@ latest_posts:
   </div>
 
   <div class="home-intro">
-    <h1 class="home-title">Hello, I'm Xiaoying Liao.</h1>
+    <h1 class="home-title">Hello, I'm <span class="home-name">Xiaoying Liao.</span></h1>
 
     <div class="typing-intro" aria-label="I am an AI for Science researcher">
       <span aria-hidden="true">I am <span id="typed-text"></span><span class="typing-cursor">|</span></span>
