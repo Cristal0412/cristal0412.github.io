@@ -28,10 +28,10 @@ latest_posts:
     <img src="{{ '/assets/img/xiaoying_liao.jpg' | relative_url }}" alt="Xiaoying Liao">
     <p class="home-motto">“Dream deeply. Plan thoughtfully. Live passionately.”</p>
     <ul class="home-research-tags" aria-label="Research interests">
-      <li class="research-ai"><span aria-hidden="true">🧠</span><span>AI for Science</span></li>
-      <li class="research-models"><span aria-hidden="true">🧬</span><span>Foundation Models for Biology</span></li>
-      <li class="research-omics"><span aria-hidden="true">🔬</span><span>Single-Cell &amp; Spatial Omics</span></li>
-      <li class="research-biology"><span aria-hidden="true">🧪</span><span>Experimental &amp; Computational Biology</span></li>
+      <li class="research-ai"><span aria-hidden="true">🤖</span><span>AI for Science</span></li>
+      <li class="research-models"><span aria-hidden="true">🧬</span><span>Foundation Models</span></li>
+      <li class="research-omics"><span aria-hidden="true">🔬</span><span>Single-Cell &amp; Spatial</span></li>
+      <li class="research-biology"><span aria-hidden="true">🧪</span><span>Experiment + Computation</span></li>
     </ul>
   </div>
 
