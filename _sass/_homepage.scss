@@ -31,13 +31,14 @@
 .home-intro {
   min-width: 0;
   margin: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 
   .home-title {
     margin: 0 0 0.55rem;
-    font-size: 2.15rem;
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
+    font-size: 2.3rem;
+    font-weight: 800;
+    line-height: 1.12;
+    letter-spacing: -0.035em;
   }
 
   .typing-intro {
@@ -118,6 +119,9 @@
 
 .home-hero ~ h2 {
   margin-top: 2.5rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 
 @keyframes typing-blink {
