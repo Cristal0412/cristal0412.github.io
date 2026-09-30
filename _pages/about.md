@@ -147,6 +147,20 @@ latest_posts:
   </section>
 </div>
 
+## Academic Service {#academic-service}
+
+<div class="home-service">
+  <span class="service-icon"><i class="fa-solid fa-file-circle-check" aria-hidden="true"></i></span>
+  <div>
+    <h3>Conference Reviewer</h3>
+    <ul class="service-venues" aria-label="Reviewed conferences">
+      <li>AAAI 2025</li>
+      <li>AAAI 2026</li>
+      <li>ICLR 2027</li>
+    </ul>
+  </div>
+</div>
+
 [Download the full CV (PDF)](/assets/pdf/Xiaoying_Liao_CV.pdf)
 
 {% include homepage_impact.liquid %}
