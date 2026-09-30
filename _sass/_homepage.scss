@@ -217,7 +217,7 @@
   .visitor-map-card {
     display: flex;
     flex-direction: column;
-    background: #fff1f6;
+    background: #fff;
   }
 
   .visitor-map-widget {
@@ -239,6 +239,11 @@
 
     > span > img:first-child {
       filter: url("#visitor-map-pastel");
+    }
+
+    > span > span img {
+      // Override the widget's inline filter while retaining a white marker outline.
+      filter: url("#visitor-map-marker") drop-shadow(0 0 1px #fff) !important;
     }
   }
 
@@ -367,7 +372,7 @@ html[data-theme="dark"] .home-impact {
   --impact-accent: #ff8ab2;
 
   .visitor-map-card {
-    background: #38232d;
+    background: var(--global-card-bg-color);
   }
 }
 
