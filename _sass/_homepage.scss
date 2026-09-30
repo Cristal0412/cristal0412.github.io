@@ -41,10 +41,9 @@
 }
 
 .home-hero .home-research-tags {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.6rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.4rem;
   margin: 1.1rem 0 0;
   padding: 0;
   list-style: none;
@@ -55,23 +54,24 @@
 
   li {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     gap: 0.4rem;
-    padding: 0.5rem 0.85rem;
+    padding: 0.65rem 0.3rem;
     border: 1px solid var(--global-divider-color);
-    border-radius: 999px;
+    border-radius: 18px;
     background: var(--global-card-bg-color);
     box-shadow: 0 2px 5px rgb(0 0 0 / 3%);
     font-size: 0.95rem;
     font-weight: 600;
     line-height: 1.4;
+    text-align: center;
+    overflow-wrap: anywhere;
   }
 
   .research-ai {
     color: #a739a4;
-  }
-  .research-models {
-    color: #007b9a;
   }
   .research-omics {
     color: #287d65;
@@ -84,9 +84,6 @@
 html[data-theme="dark"] .home-research-tags {
   .research-ai {
     color: #dca1e2;
-  }
-  .research-models {
-    color: #8acfe0;
   }
   .research-omics {
     color: #93d3ba;

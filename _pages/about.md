@@ -29,9 +29,8 @@ latest_posts:
     <p class="home-motto">“Dream deeply. Plan thoughtfully. Live passionately.”</p>
     <ul class="home-research-tags" aria-label="Research interests">
       <li class="research-ai"><span aria-hidden="true">🤖</span><span>AI for Science</span></li>
-      <li class="research-models"><span aria-hidden="true">🧬</span><span>Foundation Models</span></li>
       <li class="research-omics"><span aria-hidden="true">🔬</span><span>Single-Cell &amp; Spatial</span></li>
-      <li class="research-biology"><span aria-hidden="true">🧪</span><span>Experiment + Computation</span></li>
+      <li class="research-biology"><span aria-hidden="true">🧪</span><span>Experimental Biology</span></li>
     </ul>
   </div>
 
