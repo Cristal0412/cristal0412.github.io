@@ -126,9 +126,26 @@ latest_posts:
 
 ## Honors & Awards {#honors-awards}
 
-- Dalyell Scholar, University of Sydney (2022).
-- Vice Chancellor’s Global Mobility Scholarship, University of Sydney (2020).
-- Second Prize, China National High School Biology Olympiad (2018).
+<div class="home-awards">
+  <section class="award-group" aria-labelledby="award-scholarships">
+    <h3 id="award-scholarships">Scholarships & Honors</h3>
+    <div class="award-card">
+      <span class="award-icon"><i class="fa-solid fa-award" aria-hidden="true"></i></span>
+      <div><h4>Dalyell Scholar</h4><p>University of Sydney · 2022</p></div>
+    </div>
+    <div class="award-card">
+      <span class="award-icon"><i class="fa-solid fa-globe" aria-hidden="true"></i></span>
+      <div><h4>Vice Chancellor’s Global Mobility Scholarship</h4><p>University of Sydney · 2020</p></div>
+    </div>
+  </section>
+  <section class="award-group" aria-labelledby="award-competitions">
+    <h3 id="award-competitions">Competitions</h3>
+    <div class="award-card">
+      <span class="award-icon"><i class="fa-solid fa-trophy" aria-hidden="true"></i></span>
+      <div><h4>Second Prize</h4><p>China National High School Biology Olympiad · 2018</p></div>
+    </div>
+  </section>
+</div>
 
 [Download the full CV (PDF)](/assets/pdf/Xiaoying_Liao_CV.pdf)
 
