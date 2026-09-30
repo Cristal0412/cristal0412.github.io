@@ -94,9 +94,35 @@ latest_posts:
 
 ## Skills {#skills}
 
-- **Programming and analysis:** Python, R, SQL, MATLAB, Stata, SAS, SPSS, Tableau, GraphPad Prism, FIJI/ImageJ.
-- **Computational biology:** single-cell and spatial transcriptomics, statistical modeling, machine learning, bioinformatics.
-- **Experimental biology:** cell and tissue culture, immunostaining, confocal and two-photon imaging, PCR/qRT-PCR, Western blot, genotyping, DNA/RNA extraction, mouse procedures.
+<div class="home-skills">
+  <section class="skill-group" aria-labelledby="skill-programming">
+    <span class="skill-icon"><i class="fa-solid fa-code" aria-hidden="true"></i></span>
+    <div>
+      <h3 id="skill-programming">Programming and analysis</h3>
+      <div class="skill-tags">
+        <span>Python</span><span>R</span><span>SQL</span><span>MATLAB</span><span>Stata</span><span>SAS</span><span>SPSS</span><span>Tableau</span><span>GraphPad Prism</span><span>FIJI/ImageJ</span>
+      </div>
+    </div>
+  </section>
+  <section class="skill-group" aria-labelledby="skill-computational">
+    <span class="skill-icon"><i class="fa-solid fa-dna" aria-hidden="true"></i></span>
+    <div>
+      <h3 id="skill-computational">Computational biology</h3>
+      <div class="skill-tags">
+        <span>Single-cell and spatial transcriptomics</span><span>Statistical modeling</span><span>Machine learning</span><span>Bioinformatics</span>
+      </div>
+    </div>
+  </section>
+  <section class="skill-group" aria-labelledby="skill-experimental">
+    <span class="skill-icon"><i class="fa-solid fa-flask-vial" aria-hidden="true"></i></span>
+    <div>
+      <h3 id="skill-experimental">Experimental biology</h3>
+      <div class="skill-tags">
+        <span>Cell and tissue culture</span><span>Immunostaining</span><span>Confocal and two-photon imaging</span><span>PCR/qRT-PCR</span><span>Western blot</span><span>Genotyping</span><span>DNA/RNA extraction</span><span>Mouse procedures</span>
+      </div>
+    </div>
+  </section>
+</div>
 
 ## Honors & Awards {#honors-awards}
 
