@@ -109,7 +109,7 @@ latest_posts:
     <div>
       <h3 id="skill-computational">Computational biology</h3>
       <div class="skill-tags">
-        <span>Single-cell and spatial transcriptomics</span><span>Statistical modeling</span><span>Machine learning</span><span>Bioinformatics</span>
+        <span>Single-cell and spatial transcriptomics</span><span>Statistical modeling</span><span>Machine learning</span><span>Deep learning</span><span>Bioinformatics</span>
       </div>
     </div>
   </section>
