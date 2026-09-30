@@ -9,13 +9,17 @@
     "h_index": 2,
     "i10_index": 2,
     "paper_count": 7,
-    "updated": "2026-09-29",
-    "updated_at_utc": "2026-09-30T04:47:06+00:00",
+    "updated": "2026-09-30",
+    "updated_at_utc": "2026-09-30T18:00:08+00:00",
     "source": "Google Scholar public profile"
   },
   "history": [
     {
       "date": "2026-09-29",
+      "total_citations": 67
+    },
+    {
+      "date": "2026-09-30",
       "total_citations": 67
     }
   ],
