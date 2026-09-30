@@ -40,7 +40,7 @@
   }
 }
 
-.home-research-tags {
+.home-hero .home-research-tags {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.6rem;
@@ -749,7 +749,7 @@ html[data-theme="dark"] .home-impact {
   @media (max-width: 1199px) {
     left: 50%;
     top: auto;
-    bottom: 1rem;
+    bottom: 4.5rem;
     transform: translateX(-50%);
     flex-direction: row;
     padding: 0.2rem 0.6rem;
@@ -765,6 +765,10 @@ html[data-theme="dark"] .home-impact {
 .scroll-reveal.reveal-pending {
   opacity: 0;
   transform: translateY(20px);
+}
+
+.home-impact.scroll-reveal.reveal-pending {
+  transform: translate(-50%, 20px);
 }
 
 @media (prefers-reduced-motion: reduce) {
