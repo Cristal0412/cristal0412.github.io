@@ -118,7 +118,7 @@ latest_posts:
     <div>
       <h3 id="skill-experimental">Experimental biology</h3>
       <div class="skill-tags">
-        <span>Single-cell</span><span>Cell and tissue culture</span><span>Immunostaining</span><span>Confocal and two-photon imaging</span><span>PCR/qRT-PCR</span><span>Western blot</span><span>Genotyping</span><span>DNA/RNA extraction</span><span>Mouse procedures</span>
+        <span>Single-cell (10x Genomics)</span><span>Illumina</span><span>Spatial transcriptomics</span><span>Cell and tissue culture</span><span>Immunostaining</span><span>Confocal and two-photon imaging</span><span>PCR/qRT-PCR</span><span>Western blot</span><span>Genotyping</span><span>DNA/RNA extraction</span><span>Mouse procedures</span>
       </div>
     </div>
   </section>
