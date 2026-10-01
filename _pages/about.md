@@ -85,7 +85,11 @@ latest_posts:
 
 ## Publications {#selected-publications}
 
+### Published Papers & Preprints
+
 {% include selected_papers.liquid %}
+
+{% include manuscripts_in_preparation.liquid %}
 
 [See all publications](/publications/)
 
