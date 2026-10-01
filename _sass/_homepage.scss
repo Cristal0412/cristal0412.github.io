@@ -853,3 +853,137 @@ html[data-theme="dark"] .home-impact {
   color: var(--global-theme-color);
   font-weight: 700;
 }
+
+// Paper cards inspired by Xi Xiao's publication layout.
+.publications {
+  --publication-link-color: #2864ff;
+  --publication-title-color: #182235;
+  --publication-author-color: #687386;
+  --publication-border-color: #e0e5ec;
+
+  h2.bibliography {
+    margin: 2rem 0 1rem;
+    padding: 0;
+    border: 0;
+    color: var(--publication-title-color);
+    text-align: left;
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+
+  ol.bibliography > li {
+    padding: 1.5rem;
+    border-color: var(--publication-border-color);
+    border-radius: 8px;
+
+    .publication-entry {
+      display: grid;
+      grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+      align-items: center;
+      gap: 1.5rem;
+      margin: 0;
+    }
+
+    .publication-figure,
+    .publication-content {
+      width: 100%;
+      max-width: none;
+      min-width: 0;
+      padding: 0;
+      margin: 0;
+    }
+
+    .publication-figure {
+      .badge {
+        display: none;
+      }
+
+      figure {
+        margin: 0;
+      }
+
+      .preview {
+        display: block;
+        width: 100%;
+        max-height: 170px;
+        object-fit: contain;
+        box-shadow: none !important;
+        border-radius: 3px !important;
+      }
+    }
+
+    .title {
+      color: var(--publication-title-color);
+      font-size: 1.15rem;
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    .author {
+      margin: 0.6rem 0;
+      color: var(--publication-author-color);
+      font-size: 1rem;
+      line-height: 1.6;
+
+      a {
+        color: var(--publication-author-color);
+        border-bottom-color: var(--publication-author-color);
+      }
+    }
+
+    .periodical {
+      color: var(--publication-link-color);
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: 1.5;
+
+      em {
+        color: inherit;
+        font-style: normal;
+      }
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      margin-top: 0.5rem;
+
+      a.btn {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        color: var(--publication-link-color);
+        background: transparent;
+        font-size: 0.95rem;
+        font-weight: 600;
+        text-transform: none;
+        box-shadow: none;
+
+        &:hover,
+        &:focus-visible {
+          color: var(--publication-link-color);
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+html[data-theme="dark"] .publications {
+  --publication-link-color: #8cafff;
+  --publication-title-color: #edf1f8;
+  --publication-author-color: #abb7ca;
+  --publication-border-color: #3b4352;
+}
+
+@media (max-width: 640px) {
+  .publications ol.bibliography > li .publication-entry {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+  }
+
+  .publications ol.bibliography > li .publication-figure {
+    max-width: 280px;
+  }
+}
