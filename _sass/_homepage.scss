@@ -992,9 +992,10 @@ html[data-theme="dark"] .publications {
   }
 }
 
-.home-academic-services {
+.home-academic-services,
+.home-academic-activities {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  grid-template-columns: minmax(0, 1fr);
   align-items: start;
   gap: 2rem;
   margin: 1.2rem 0 2rem;

@@ -163,9 +163,13 @@ latest_posts:
       <li><strong>ICLR</strong><span>2027</span></li>
     </ul>
   </section>
+</div>
+
+## Academic Activities {#academic-activities}
+
+<div class="home-academic-activities">
   <section class="home-service home-activities" aria-labelledby="academic-activities">
     <span class="service-icon"><i class="fa-solid fa-users" aria-hidden="true"></i></span>
-    <h3 id="academic-activities">Academic Activities</h3>
     <ul class="academic-activity-list">
       <li><span class="activity-year">2026</span><div><strong>Association for Research in Vision and Ophthalmology (ARVO)</strong><p>Second author on a poster presented at ARVO 2026</p></div></li>
       <li><span class="activity-year">2026</span><div><strong>Johns Hopkins Cell Biology Symposium</strong><p>Second author on a poster presented at the symposium</p></div></li>
