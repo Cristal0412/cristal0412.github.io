@@ -848,3 +848,8 @@ html[data-theme="dark"] .home-impact {
     line-height: 1.6;
   }
 }
+
+.publications .publication-self {
+  color: var(--global-theme-color);
+  font-weight: 700;
+}
