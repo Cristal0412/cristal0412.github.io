@@ -987,3 +987,65 @@ html[data-theme="dark"] .publications {
     max-width: 280px;
   }
 }
+
+.home-academic-services {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  align-items: start;
+  gap: 2rem;
+  margin: 1.2rem 0 2rem;
+
+  .home-service {
+    width: 100%;
+    margin: 0;
+  }
+
+  .academic-activity-list {
+    display: grid;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      display: grid;
+      grid-template-columns: 3.5rem minmax(0, 1fr);
+      align-items: start;
+      gap: 1rem;
+      padding: 1rem 0;
+      border: 0;
+      border-bottom: 1px solid var(--global-divider-color);
+      border-radius: 0;
+      background: transparent;
+      font-size: 1.05rem;
+
+      &:last-child {
+        border-bottom: 0;
+        padding-bottom: 0;
+      }
+    }
+
+    .activity-year {
+      color: var(--global-theme-color);
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: normal;
+    }
+
+    strong {
+      line-height: 1.5;
+    }
+
+    p {
+      margin: 0.35rem 0 0;
+      color: var(--global-text-color-light);
+      font-size: 1rem;
+      line-height: 1.55;
+    }
+  }
+
+  @media (max-width: 767px) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.25rem;
+  }
+}

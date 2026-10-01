@@ -154,15 +154,26 @@ latest_posts:
 
 ## Academic Services {#academic-service}
 
-<div class="home-service">
-  <span class="service-icon"><i class="fa-solid fa-user-check" aria-hidden="true"></i></span>
-  <div>
-    <h3>Conference Reviewing</h3>
+<div class="home-academic-services">
+  <section class="home-service" aria-labelledby="conference-reviewing">
+    <span class="service-icon"><i class="fa-solid fa-user-check" aria-hidden="true"></i></span>
+    <h3 id="conference-reviewing">Conference Reviewing</h3>
     <ul class="service-venues" aria-label="Reviewed conferences">
       <li><strong>AAAI</strong><span>2025–2026</span></li>
       <li><strong>ICLR</strong><span>2027</span></li>
     </ul>
-  </div>
+  </section>
+  <section class="home-service home-activities" aria-labelledby="academic-activities">
+    <span class="service-icon"><i class="fa-solid fa-users" aria-hidden="true"></i></span>
+    <h3 id="academic-activities">Academic Activities</h3>
+    <ul class="academic-activity-list">
+      <li><span class="activity-year">2026</span><div><strong>Association for Research in Vision and Ophthalmology (ARVO)</strong><p>Second author on a poster presented at ARVO 2026</p></div></li>
+      <li><span class="activity-year">2026</span><div><strong>Johns Hopkins Cell Biology Symposium</strong><p>Second author on a poster presented at the symposium</p></div></li>
+      <li><span class="activity-year">2025</span><div><strong>Annual Wilmer Research Meeting</strong><p>Second author on a poster presented at the meeting</p></div></li>
+      <li><span class="activity-year">2023</span><div><strong>Sydney Bioinformatics Research Symposium (SBRS)</strong><p>Participant</p></div></li>
+      <li><span class="activity-year">2023</span><div><strong>Unlocking Single Cell Spatial Omics Analyses with Scdney</strong><p>Participant</p></div></li>
+    </ul>
+  </section>
 </div>
 
 [Download the full CV (PDF)](/assets/pdf/Xiaoying_Liao_CV.pdf)
