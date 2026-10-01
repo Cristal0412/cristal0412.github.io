@@ -856,7 +856,7 @@ html[data-theme="dark"] .home-impact {
 
 // Paper cards inspired by Xi Xiao's publication layout.
 .publications {
-  --publication-link-color: #2864ff;
+  --publication-link-color: var(--global-theme-color);
   --publication-title-color: #182235;
   --publication-author-color: #687386;
   --publication-border-color: #e0e5ec;
@@ -971,7 +971,7 @@ html[data-theme="dark"] .home-impact {
 }
 
 html[data-theme="dark"] .publications {
-  --publication-link-color: #8cafff;
+  --publication-link-color: var(--global-theme-color);
   --publication-title-color: #edf1f8;
   --publication-author-color: #abb7ca;
   --publication-border-color: #3b4352;
