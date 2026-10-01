@@ -169,6 +169,8 @@ latest_posts:
     <ul class="academic-activity-list">
       <li><span class="activity-year">2026</span><div><strong>Association for Research in Vision and Ophthalmology (ARVO)</strong><p>Second author on a poster presented at ARVO 2026</p></div></li>
       <li><span class="activity-year">2026</span><div><strong>Johns Hopkins Cell Biology Symposium</strong><p>Second author on a poster presented at the symposium</p></div></li>
+      <li><span class="activity-year">2026</span><div><strong>Annual Postdoctoral Research Meeting</strong><p>Second author on a poster · June 5, 2026</p><p>Primary Cilia–Hedgehog Signaling Regulates Meibomian Gland Progenitors and Lipid Homeostasis</p></div></li>
+      <li><span class="activity-year">2025</span><div><strong>Maryland Stem Cell Colloquium</strong><p>Second author on a poster · October 16–17, 2025</p><p>Ciliary signaling pathways represent a potential intervention point for treating evaporative dry eye disease</p></div></li>
       <li><span class="activity-year">2025</span><div><strong>Annual Wilmer Research Meeting</strong><p>Second author on a poster presented at the meeting</p></div></li>
       <li><span class="activity-year">2023</span><div><strong>Sydney Bioinformatics Research Symposium (SBRS)</strong><p>Participant</p></div></li>
       <li><span class="activity-year">2023</span><div><strong>Unlocking Single Cell Spatial Omics Analyses with Scdney</strong><p>Participant</p></div></li>
