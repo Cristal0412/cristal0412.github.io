@@ -42,11 +42,6 @@ latest_posts:
       focuses on single-cell and spatial genomics, computational modeling of development and disease, and AI-driven biological discovery.
     </p>
 
-    <ul class="home-research-tags" aria-label="Research interests">
-      <li class="research-ai"><span aria-hidden="true">🤖</span><span>AI for Science</span></li>
-      <li class="research-omics"><span aria-hidden="true">🔬</span><span>Single-Cell &amp; Spatial</span></li>
-      <li class="research-biology"><span aria-hidden="true">🧪</span><span>Experimental Biology</span></li>
-    </ul>
 
     <p>
       I have a background in both experimental and computational research. I earned my Master of Science in Engineering in Biomedical Engineering from

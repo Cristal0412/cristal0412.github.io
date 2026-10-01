@@ -40,57 +40,6 @@
   }
 }
 
-.home-hero .home-research-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  margin: 0.9rem 0 1.2rem;
-  padding: 0;
-  list-style: none;
-
-  li span {
-    color: inherit;
-  }
-
-  li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.4rem;
-    padding: 0.5rem 0.85rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 999px;
-    background: var(--global-card-bg-color);
-    box-shadow: 0 2px 5px rgb(0 0 0 / 3%);
-    font-size: 0.95rem;
-    font-weight: 600;
-    line-height: 1.4;
-    text-align: center;
-  }
-
-  .research-ai {
-    color: #a739a4;
-  }
-  .research-omics {
-    color: #287d65;
-  }
-  .research-biology {
-    color: #bf3578;
-  }
-}
-
-html[data-theme="dark"] .home-research-tags {
-  .research-ai {
-    color: #dca1e2;
-  }
-  .research-omics {
-    color: #93d3ba;
-  }
-  .research-biology {
-    color: #f2a0c8;
-  }
-}
-
 .home-intro {
   min-width: 0;
   margin: 0;
