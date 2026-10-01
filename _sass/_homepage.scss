@@ -850,8 +850,12 @@ html[data-theme="dark"] .home-impact {
 }
 
 .publications .publication-self {
-  color: var(--global-theme-color);
+  color: var(--global-text-color);
   font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--global-theme-color);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
 }
 
 // Paper cards inspired by Xi Xiao's publication layout.
