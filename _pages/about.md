@@ -173,6 +173,7 @@ latest_posts:
       <li><span class="activity-year">2025</span><div><strong>Maryland Stem Cell Colloquium</strong><p>Second author on a poster · October 16–17, 2025</p><p>Ciliary signaling pathways represent a potential intervention point for treating evaporative dry eye disease</p></div></li>
       <li><span class="activity-year">2025</span><div><strong>Annual Wilmer Research Meeting</strong><p>Second author on a poster presented at the meeting</p></div></li>
       <li><span class="activity-year">2023</span><div><strong>Sydney Bioinformatics Research Symposium (SBRS)</strong><p>Participant</p></div></li>
+      <li><span class="activity-year">2023</span><div><strong>Single-Cell Plus – Data Science Challenges in Single-Cell Research</strong><p>Participant</p></div></li>
       <li><span class="activity-year">2023</span><div><strong>Unlocking Single Cell Spatial Omics Analyses with Scdney</strong><p>Participant</p></div></li>
     </ul>
   </section>
