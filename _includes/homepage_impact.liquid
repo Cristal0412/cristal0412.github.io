@@ -5,10 +5,12 @@
     <h3 id="visitor-map-heading">Visitor Map</h3>
     <div class="visitor-map-widget">
       {% if visitor.mapmyvisitors_id != blank %}
-        <script
-          id="mapmyvisitors"
-          src="https://mapmyvisitors.com/map.js?cl=f0ceee&amp;w=a&amp;t=n&amp;d={{ visitor.mapmyvisitors_id | url_encode }}&amp;co=e3f2fa&amp;cmo=b509ac&amp;cmn=b509ac"
-        ></script>
+        <iframe
+          class="visitor-map-frame"
+          src="{{ '/assets/html/visitor-map.html' | relative_url }}?v={{ site.time | date: '%s' }}"
+          title="Visitor locations, pageviews and date range"
+          loading="lazy"
+        ></iframe>
         <noscript>
           <img
             src="https://mapmyvisitors.com/map.png?d={{ visitor.mapmyvisitors_id | url_encode }}&amp;co=e3f2fa&amp;cl=f0ceee&amp;cmo=b509ac&amp;cmn=b509ac"

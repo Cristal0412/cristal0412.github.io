@@ -1,0 +1,35 @@
+---
+layout: null
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' https://mapmyvisitors.com https://code.jquery.com; style-src 'unsafe-inline' https://mapmyvisitors.com; img-src data: https://mapmyvisitors.com https://dev.mapmyvisitors.com; connect-src https://mapmyvisitors.com;"
+    />
+    <title>Visitor Map</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background: #e3f2fa;
+        font-family: Arial, sans-serif;
+      }
+      #mapmyvisitors-widget {
+        max-width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <script
+      id="mapmyvisitors"
+      src="https://mapmyvisitors.com/map.js?cl=f0ceee&amp;w=a&amp;t=m&amp;d={{ site.data.visitor_map.mapmyvisitors_id | url_encode }}&amp;co=e3f2fa&amp;cmo=b509ac&amp;cmn=b509ac&amp;ct=1f2937"
+    ></script>
+  </body>
+</html>

@@ -426,6 +426,14 @@ html[data-theme="dark"] .navbar.navbar-light .site-name {
     max-width: 100%;
   }
 
+  .visitor-map-frame {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1.75;
+    border: 0;
+  }
+
   .impact-action {
     align-self: flex-start;
     margin-top: auto;
