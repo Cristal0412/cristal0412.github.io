@@ -83,7 +83,7 @@ latest_posts:
 
 {% include custom_education.liquid %}
 
-## Selected Publications {#selected-publications}
+## Publications {#selected-publications}
 
 {% include selected_papers.liquid %}
 
