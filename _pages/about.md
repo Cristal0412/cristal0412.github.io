@@ -75,13 +75,13 @@ latest_posts:
   </div>
 </div>
 
-## Research Experience {#experience}
-
-{% include research_experience.liquid %}
-
 ## Education {#education}
 
 {% include custom_education.liquid %}
+
+## Research Experience {#experience}
+
+{% include research_experience.liquid %}
 
 ## Publications {#selected-publications}
 
