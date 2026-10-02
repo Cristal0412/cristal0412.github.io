@@ -29,7 +29,7 @@
     width: 76px;
     align-items: center;
     justify-content: center;
-    padding-top: 0.35rem;
+    padding-top: 0;
 
     img {
       display: block;
@@ -37,6 +37,7 @@
       max-width: 76px;
       height: 50px;
       object-fit: contain;
+      object-position: center top;
     }
   }
 
@@ -44,6 +45,7 @@
     background-color: #fff;
     filter: brightness(1.05);
     border-radius: 4px;
+    transform: translateY(-0.5rem);
   }
 
   .research-details {
@@ -182,7 +184,7 @@
     .research-logo {
       grid-column: 1;
       width: 60px;
-      padding-top: 0.25rem;
+      padding-top: 0;
 
       img {
         max-width: 60px;
