@@ -11,9 +11,9 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
-
 ## Published Papers, Preprints & Posters
+
+{% include publication_filters.liquid %}
 
 <div class="publications">
 

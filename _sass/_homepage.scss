@@ -1055,3 +1055,166 @@ html[data-theme="dark"] .publications {
     gap: 1.25rem;
   }
 }
+
+// Separate homepage sections with soft cards and theme-colored heading icons.
+.home-page {
+  background-color: color-mix(in srgb, var(--global-theme-color) 2%, var(--global-bg-color));
+
+  .home-section-card {
+    margin: 0 0 2.4rem;
+    padding: 2rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 20px;
+    background: var(--global-bg-color);
+    box-shadow: 0 5px 22px rgba(30, 20, 30, 0.045);
+
+    > h2 {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      margin: 0 0 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--global-divider-color);
+      font-size: 1.55rem;
+      font-weight: 700;
+      scroll-margin-top: 7rem;
+
+      &::before {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.2rem;
+        height: 2.2rem;
+        flex: 0 0 2.2rem;
+        border: 1px solid color-mix(in srgb, var(--global-theme-color) 20%, transparent);
+        border-radius: 10px;
+        background: color-mix(in srgb, var(--global-theme-color) 6%, var(--global-bg-color));
+        color: var(--global-theme-color);
+        font-family: "Font Awesome 6 Free";
+        font-size: 1rem;
+        font-weight: 900;
+        content: "\f15c";
+      }
+    }
+
+    #education::before {
+      content: "\f19d";
+    }
+    #experience::before {
+      content: "\f0c3";
+    }
+    #teaching::before {
+      content: "\f51c";
+    }
+    #skills::before {
+      content: "\f121";
+    }
+    #honors-awards::before {
+      content: "\f091";
+    }
+    #academic-service::before {
+      content: "\f0c0";
+    }
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+    .research-entry:first-child {
+      padding-top: 0.3rem;
+    }
+  }
+
+  .scroll-reveal {
+    transition:
+      opacity 0.8s ease,
+      transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+
+  .scroll-reveal.reveal-pending {
+    opacity: 0;
+    transform: translateY(36px);
+  }
+}
+
+@media (max-width: 640px) {
+  .home-page .home-section-card {
+    padding: 1.25rem 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 15px;
+
+    > h2 {
+      font-size: 1.25rem;
+      gap: 0.6rem;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-page .scroll-reveal,
+  .home-page .scroll-reveal.reveal-pending {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+.publication-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  margin: 1rem 0 1.6rem;
+
+  button {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    padding: 0.4rem 1rem;
+    background: color-mix(in srgb, var(--global-text-color) 4%, var(--global-bg-color));
+    color: var(--global-text-color);
+    font: inherit;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    cursor: pointer;
+    transition:
+      background-color 0.2s ease,
+      border-color 0.2s ease;
+
+    &[aria-pressed="true"],
+    &:hover {
+      color: var(--global-theme-color);
+      border-color: color-mix(in srgb, var(--global-theme-color) 35%, transparent);
+      background: color-mix(in srgb, var(--global-theme-color) 8%, var(--global-bg-color));
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 3px;
+    }
+  }
+}
+.publications [hidden],
+.publication-filter-empty[hidden],
+.publications[hidden] {
+  display: none !important;
+}
+
+.publication-search {
+  display: block;
+  width: 100%;
+  max-width: 34rem;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 14px;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  font: inherit;
+  font-size: 1rem;
+
+  &::placeholder {
+    color: var(--global-text-color-light);
+  }
+  &:focus {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 2px;
+  }
+}

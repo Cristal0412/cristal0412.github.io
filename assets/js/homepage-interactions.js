@@ -38,10 +38,17 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     { threshold: 0.05, rootMargin: "0px 0px -30px 0px" }
   );
-  const content = hero.parentElement;
-  [...content.children].forEach((element) => {
-    if (element === hero || !["H2", "H4", "DIV", "P"].includes(element.tagName) || element.getBoundingClientRect().top < window.innerHeight) return;
-    element.classList.add("scroll-reveal", "reveal-pending");
-    observer.observe(element);
+  document.querySelectorAll(".home-section-card").forEach((card) => {
+    card.classList.add("scroll-reveal");
+    if (card.getBoundingClientRect().top >= window.innerHeight) {
+      card.classList.add("reveal-pending");
+      observer.observe(card);
+    }
+    card.querySelectorAll(".research-entry, .skill-group, .award-card, .publications li, .academic-activity-list > li").forEach((row, index) => {
+      if (row.getBoundingClientRect().top < window.innerHeight) return;
+      row.classList.add("scroll-reveal", "reveal-pending");
+      row.style.setProperty("--reveal-delay", `${Math.min(index % 4, 3) * 70}ms`);
+      observer.observe(row);
+    });
   });
 });

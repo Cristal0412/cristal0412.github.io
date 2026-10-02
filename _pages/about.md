@@ -75,17 +75,29 @@ latest_posts:
   </div>
 </div>
 
+<section class="home-section-card" markdown="1" aria-labelledby="education">
+
 ## Education {#education}
 
 {% include custom_education.liquid %}
+
+</section>
+
+<section class="home-section-card" markdown="1" aria-labelledby="experience">
 
 ## Research Experience {#experience}
 
 {% include research_experience.liquid %}
 
+</section>
+
+<section class="home-section-card" markdown="1" aria-labelledby="selected-publications">
+
 ## Publications {#selected-publications}
 
 ### Published Papers, Preprints & Posters
+
+{% include publication_filters.liquid %}
 
 {% include selected_papers.liquid %}
 
@@ -93,9 +105,17 @@ latest_posts:
 
 [See all publications](/publications/)
 
+</section>
+
+<section class="home-section-card" markdown="1" aria-labelledby="teaching">
+
 ## Teaching Experience {#teaching}
 
 {% include teaching_experience.liquid %}
+
+</section>
+
+<section class="home-section-card" markdown="1" aria-labelledby="skills">
 
 ## Skills {#skills}
 
@@ -129,6 +149,10 @@ latest_posts:
   </section>
 </div>
 
+</section>
+
+<section class="home-section-card" markdown="1" aria-labelledby="honors-awards">
+
 ## Honors & Awards {#honors-awards}
 
 <div class="home-awards">
@@ -151,6 +175,10 @@ latest_posts:
     </div>
   </section>
 </div>
+
+</section>
+
+<section class="home-section-card" markdown="1" aria-labelledby="academic-service">
 
 ## Academic Service & Activities {#academic-service}
 
@@ -183,6 +211,8 @@ latest_posts:
 [Download the full CV (PDF)](/assets/pdf/Xiaoying_Liao_CV.pdf)
 
 {% include homepage_impact.liquid %}
+
+</section>
 
 <nav class="home-contact-rail" aria-label="Quick contact links">
   <a href="mailto:xliao@stanford.edu" aria-label="Email" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
