@@ -105,7 +105,7 @@ latest_posts:
     <div>
       <h3 id="skill-programming">Programming &amp; Data Analysis</h3>
       <div class="skill-tags">
-        <span>Python</span><span>R</span><span>SQL</span><span>MATLAB</span><span>Linux/Bash</span><span>Git</span><span>PyTorch</span><span>scikit-learn</span><span>NumPy</span><span>pandas</span><span>Scanpy</span><span>Seurat</span><span>Bioconductor</span><span>Cell Ranger</span><span>GraphPad Prism</span><span>FIJI/ImageJ</span>
+        <span>Python</span><span>R</span><span>SQL</span><span>MATLAB</span><span>Linux</span><span>Git</span><span>PyTorch</span><span>scikit-learn</span><span>NumPy</span><span>pandas</span><span>Scanpy</span><span>Seurat</span><span>Bioconductor</span><span>Cell Ranger</span><span>GraphPad Prism</span><span>FIJI/ImageJ</span>
       </div>
     </div>
   </section>
