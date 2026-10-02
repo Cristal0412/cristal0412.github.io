@@ -45,7 +45,7 @@ latest_posts:
 
     <p>
       I have a background in both experimental and computational research. I earned my Master of Biomedical Engineering from
-      <a href="https://www.jhu.edu/">Johns Hopkins University</a> and my Bachelor of Science (Honours) in Statistics from the
+      <a href="https://www.jhu.edu/">Johns Hopkins University</a> and my Bachelor of Science (Honours) in Statistics and Economics from the
       <a href="https://www.sydney.edu.au/">University of Sydney</a>.
     </p>
 
@@ -170,8 +170,27 @@ latest_posts:
   <section class="award-group" aria-labelledby="award-competitions">
     <h3 id="award-competitions">Competitions</h3>
     <div class="award-card">
+      <span class="award-icon"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></span>
+      <div><h4>2nd Prize, Roland Berger Case Competition</h4><p>Rank: 2/2000 · 2023</p></div>
+    </div>
+    <div class="award-card">
+      <span class="award-icon"><i class="fa-solid fa-chart-pie" aria-hidden="true"></i></span>
+      <div><h4>3rd Meituan Business Analysis Elite Competition Participation Certificate</h4><p>2023</p></div>
+    </div>
+    <div class="award-card">
+      <span class="award-icon"><i class="fa-solid fa-coins" aria-hidden="true"></i></span>
+      <div><h4>3rd Prize, Huawei Financial Elite Challenge – Australia Region</h4><p>Rank: 3/1000 · 2021</p></div>
+    </div>
+    <div class="award-card">
       <span class="award-icon"><i class="fa-solid fa-trophy" aria-hidden="true"></i></span>
-      <div><h4>Second Prize</h4><p>China National High School Biology Olympiad · 2018</p></div>
+      <div><h4>2nd Prize, China National High School Biology Olympiad</h4><p>2018</p></div>
+    </div>
+  </section>
+  <section class="award-group" aria-labelledby="award-certifications">
+    <h3 id="award-certifications">Certifications</h3>
+    <div class="award-card">
+      <span class="award-icon"><i class="fa-solid fa-certificate" aria-hidden="true"></i></span>
+      <div><h4>Certified Financial Risk Manager (FRM)</h4><p>Part I and Part II</p></div>
     </div>
   </section>
 </div>
