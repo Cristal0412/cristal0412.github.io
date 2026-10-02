@@ -131,7 +131,7 @@
 .home-name,
 .navbar.navbar-light .site-name {
   color: #c33b88;
-  background: linear-gradient(105deg, #e34b91 0%, #d43e9b 35%, #b747a5 70%, #9451b4 100%);
+  background: linear-gradient(105deg, #ed4f94 0%, #c744a4 45%, #7645b9 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1226,11 +1226,24 @@ html[data-theme="dark"] .home-page {
 html:not([data-theme="dark"]) body.home-page {
   --global-bg-color: #fff;
   --global-card-bg-color: #fff;
+  --global-theme-color: #bf4d7d;
+  --global-hover-color: #a83d6a;
   --home-hero-bg: #fff;
-  background: #fff;
+  background: #fff5f8;
 
-  .home-hero,
+  .home-hero {
+    margin: 0 0 2.4rem;
+    padding: clamp(1.25rem, 3vw, 2.5rem);
+    border: 1px solid #f0e2e8;
+    border-radius: 20px;
+    box-shadow: 0 5px 22px rgba(113, 52, 78, 0.045);
+    clip-path: none;
+    background: #fff;
+  }
+
   .home-section-card {
-    background-color: #fff;
+    background: #fff;
+    border-color: #f0e2e8;
+    box-shadow: 0 5px 22px rgba(113, 52, 78, 0.045);
   }
 }
