@@ -1,5 +1,5 @@
 .home-page {
-  --home-hero-bg: #f7f8fa;
+  --home-hero-bg: #fff;
 
   font-size: 1.125rem;
   line-height: 1.7;
@@ -1058,7 +1058,7 @@ html[data-theme="dark"] .publications {
 
 // Separate homepage sections with soft cards and theme-colored heading icons.
 .home-page {
-  background-color: color-mix(in srgb, var(--global-theme-color) 2%, var(--global-bg-color));
+  background-color: #fff;
 
   .home-section-card {
     margin: 0 0 2.4rem;
@@ -1217,4 +1217,8 @@ html[data-theme="dark"] .publications {
     outline: 2px solid var(--global-theme-color);
     outline-offset: 2px;
   }
+}
+
+html[data-theme="dark"] .home-page {
+  background-color: var(--global-bg-color);
 }
