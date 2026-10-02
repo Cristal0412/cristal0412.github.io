@@ -114,7 +114,7 @@ latest_posts:
     <div>
       <h3 id="skill-computational">Computational biology</h3>
       <div class="skill-tags">
-        <span>Single-cell and spatial transcriptomics</span><span>Statistical modeling</span><span>Machine learning</span><span>Deep learning</span><span>Bioinformatics</span>
+        <span>Single-cell and spatial transcriptomics</span><span>Statistical modeling</span><span>Machine learning</span><span>Deep learning</span><span>Bioinformatics</span><span>Spatial clustering and benchmarking</span><span>2D and 3D spatial data analysis</span><span>Transcriptomic data analysis</span><span>Quantitative image analysis</span><span>Multimodal data integration</span>
       </div>
     </div>
   </section>
