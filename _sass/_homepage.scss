@@ -1222,3 +1222,15 @@ html[data-theme="dark"] .publications {
 html[data-theme="dark"] .home-page {
   background-color: var(--global-bg-color);
 }
+
+html:not([data-theme="dark"]) body.home-page {
+  --global-bg-color: #fff;
+  --global-card-bg-color: #fff;
+  --home-hero-bg: #fff;
+  background: #fff;
+
+  .home-hero,
+  .home-section-card {
+    background-color: #fff;
+  }
+}
