@@ -103,27 +103,27 @@ latest_posts:
   <section class="skill-group" aria-labelledby="skill-programming">
     <span class="skill-icon"><i class="fa-solid fa-code" aria-hidden="true"></i></span>
     <div>
-      <h3 id="skill-programming">Programming and analysis</h3>
+      <h3 id="skill-programming">Programming &amp; Data Analysis</h3>
       <div class="skill-tags">
-        <span>Python</span><span>R</span><span>SQL</span><span>MATLAB</span><span>Stata</span><span>SAS</span><span>SPSS</span><span>Tableau</span><span>GraphPad Prism</span><span>FIJI/ImageJ</span>
+        <span>Python</span><span>R</span><span>SQL</span><span>MATLAB</span><span>Linux/Bash</span><span>Git</span><span>PyTorch</span><span>scikit-learn</span><span>NumPy</span><span>pandas</span><span>Scanpy</span><span>Seurat</span><span>Bioconductor</span><span>Cell Ranger</span><span>GraphPad Prism</span><span>FIJI/ImageJ</span>
       </div>
     </div>
   </section>
   <section class="skill-group" aria-labelledby="skill-computational">
     <span class="skill-icon"><i class="fa-solid fa-dna" aria-hidden="true"></i></span>
     <div>
-      <h3 id="skill-computational">Computational biology</h3>
+      <h3 id="skill-computational">Computational Biology</h3>
       <div class="skill-tags">
-        <span>Single-cell and spatial transcriptomics</span><span>Statistical modeling</span><span>Machine learning</span><span>Deep learning</span><span>Bioinformatics</span><span>Spatial clustering and benchmarking</span><span>2D and 3D spatial data analysis</span><span>Transcriptomic data analysis</span><span>Quantitative image analysis</span><span>Multimodal data integration</span>
+        <span>Single-cell and spatial transcriptomics</span><span>Statistical modeling</span><span>Machine learning and deep learning</span><span>Foundation models for biological data</span><span>Multimodal and multi-omics integration</span><span>Perturbation and drug-response modeling</span><span>Spatial omics analysis and benchmarking</span>
       </div>
     </div>
   </section>
   <section class="skill-group" aria-labelledby="skill-experimental">
     <span class="skill-icon"><i class="fa-solid fa-flask-vial" aria-hidden="true"></i></span>
     <div>
-      <h3 id="skill-experimental">Experimental biology</h3>
+      <h3 id="skill-experimental">Experimental Biology</h3>
       <div class="skill-tags">
-        <span>Single-cell (10x Genomics)</span><span>Spatial transcriptomics (Illumina)</span><span>Cell and tissue culture</span><span>Immunostaining</span><span>Confocal and two-photon imaging</span><span>PCR/qRT-PCR</span><span>Western blot</span><span>Genotyping</span><span>DNA/RNA extraction</span><span>Mouse procedures</span>
+        <span>10x Genomics single-cell sequencing</span><span>Illumina spatial transcriptomics</span><span>Cell and tissue culture</span><span>Immunostaining</span><span>Confocal and two-photon microscopy</span><span>PCR/qRT-PCR</span><span>Western blotting</span><span>Genotyping</span><span>DNA/RNA extraction</span><span>Mouse procedures</span>
       </div>
     </div>
   </section>
