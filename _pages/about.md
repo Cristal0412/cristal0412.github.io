@@ -173,9 +173,9 @@ latest_posts:
       <li><span class="activity-year">2026</span><div><strong>Annual Postdoctoral Research Meeting</strong><p class="activity-authors">Huanhuan Xiao, <strong class="publication-self">Xiaoying Liao</strong>, Céline Portal, Zhenzhen Pan, Eileen Chen, Igor A. Butovich, Carlo Iomini</p><p>Primary Cilia–Hedgehog Signaling Regulates Meibomian Gland Progenitors and Lipid Homeostasis</p><p>June 5, 2026 · Tilghman Auditorium, East Baltimore Campus, Baltimore, MD</p></div></li>
       <li><span class="activity-year">2025</span><div><strong>Maryland Stem Cell Colloquium</strong><p class="activity-authors">Huanhuan Xiao, <strong class="publication-self">Xiaoying Liao</strong>, Céline Portal, Igor A. Butovich, Carlo Iomini</p><p>Ciliary signaling pathways represent a potential intervention point for treating evaporative dry eye disease</p><p>October 16–17, 2025 · Maryland</p></div></li>
       <li><span class="activity-year">2025</span><div><strong>Annual Wilmer Research Meeting</strong><p class="activity-authors">Huanhuan Xiao, <strong class="publication-self">Xiaoying Liao</strong>, Céline Portal, Igor A. Butovich, Carlo Iomini</p><p>Cilia-mediated signaling pathways offer a therapeutic avenue for evaporative dry eye disease</p><p>April 25, 2025 · Maryland</p></div></li>
-      <li><span class="activity-year">2023</span><div><strong>Sydney Bioinformatics Research Symposium (SBRS)</strong><p>Participant</p></div></li>
-      <li><span class="activity-year">2023</span><div><strong>Single-Cell Plus – Data Science Challenges in Single-Cell Research</strong><p>Participant</p></div></li>
-      <li><span class="activity-year">2023</span><div><strong>Unlocking Single Cell Spatial Omics Analyses with Scdney</strong><p>Participant</p></div></li>
+      <li><span class="activity-year">2023</span><div><strong>Sydney Bioinformatics Research Symposium (SBRS)</strong><p>Participant · University of Sydney</p></div></li>
+      <li><span class="activity-year">2023</span><div><strong>Single-Cell Plus – Data Science Challenges in Single-Cell Research</strong><p>Participant · University of Sydney</p></div></li>
+      <li><span class="activity-year">2023</span><div><strong>Unlocking Single Cell Spatial Omics Analyses with Scdney</strong><p>Participant · University of Sydney</p></div></li>
     </ul>
   </section>
 </div>
