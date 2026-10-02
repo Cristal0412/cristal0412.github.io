@@ -1247,3 +1247,30 @@ html:not([data-theme="dark"]) body.home-page {
     box-shadow: 0 5px 22px rgba(113, 52, 78, 0.045);
   }
 }
+
+html:not([data-theme="dark"]) body.home-page #navbar {
+  background-color: #fff5f8;
+  opacity: 1;
+  border-bottom-color: transparent;
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+
+  .navbar-brand,
+  .navbar-nav .nav-item .nav-link {
+    color: var(--global-theme-color);
+  }
+
+  &.navbar-scrolled {
+    background-color: #fff;
+    border-bottom-color: #f0e2e8;
+    box-shadow: 0 3px 16px rgba(113, 52, 78, 0.06);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:not([data-theme="dark"]) body.home-page #navbar {
+    transition: none;
+  }
+}

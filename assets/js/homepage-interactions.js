@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const links = [...document.querySelectorAll(".home-section-link")];
   const sections = links.map((link) => document.getElementById(link.dataset.section)).filter(Boolean);
   const updateNavigation = () => {
+    document.getElementById("navbar")?.classList.toggle("navbar-scrolled", window.scrollY > 24);
     const current = sections.filter((section) => section.getBoundingClientRect().top <= 160).at(-1) || hero;
     links.forEach((link) => {
       const active = link.dataset.section === current.id;
