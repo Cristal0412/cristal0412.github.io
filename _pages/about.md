@@ -52,7 +52,7 @@ latest_posts:
     <div class="phd-callout">
       <div class="phd-title">I am actively seeking Ph.D. opportunities for Fall 2027.</div>
       <div class="phd-description">
-        I am particularly interested in integrating experimental and computational approaches and using AI to discover new biological mechanisms and insights.
+        I am particularly interested in integrating experimental and computational approaches and using AI to discover new biological mechanisms and insights, with a special interest in AI for aging and exploring the limits of human lifespan.
       </div>
     </div>
 
