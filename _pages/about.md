@@ -152,19 +152,6 @@ latest_posts:
   </section>
 </div>
 
-## Academic Services {#academic-service}
-
-<div class="home-academic-services">
-  <section class="home-service" aria-labelledby="conference-reviewing">
-    <span class="service-icon"><i class="fa-solid fa-user-check" aria-hidden="true"></i></span>
-    <h3 id="conference-reviewing">Conference Reviewing</h3>
-    <ul class="service-venues" aria-label="Reviewed conferences">
-      <li><strong>AAAI</strong><span>2025–2026</span></li>
-      <li><strong>ICLR</strong><span>2027</span></li>
-    </ul>
-  </section>
-</div>
-
 ## Academic Activities {#academic-activities}
 
 <div class="home-academic-activities">
@@ -179,6 +166,19 @@ latest_posts:
       <li><span class="activity-year">2023</span><div><strong>Sydney Bioinformatics Research Symposium (SBRS)</strong><p>Participant</p></div></li>
       <li><span class="activity-year">2023</span><div><strong>Single-Cell Plus – Data Science Challenges in Single-Cell Research</strong><p>Participant</p></div></li>
       <li><span class="activity-year">2023</span><div><strong>Unlocking Single Cell Spatial Omics Analyses with Scdney</strong><p>Participant</p></div></li>
+    </ul>
+  </section>
+</div>
+
+## Academic Services {#academic-service}
+
+<div class="home-academic-services">
+  <section class="home-service" aria-labelledby="conference-reviewing">
+    <span class="service-icon"><i class="fa-solid fa-user-check" aria-hidden="true"></i></span>
+    <h3 id="conference-reviewing">Conference Reviewing</h3>
+    <ul class="service-venues" aria-label="Reviewed conferences">
+      <li><strong>AAAI</strong><span>2025–2026</span></li>
+      <li><strong>ICLR</strong><span>2027</span></li>
     </ul>
   </section>
 </div>
