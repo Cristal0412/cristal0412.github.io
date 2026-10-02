@@ -13,7 +13,7 @@ nav_order: 2
 
 {% include bib_search.liquid %}
 
-## Published Papers & Preprints
+## Published Papers, Preprints & Posters
 
 <div class="publications">
 

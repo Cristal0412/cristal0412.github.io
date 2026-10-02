@@ -85,7 +85,7 @@ latest_posts:
 
 ## Publications {#selected-publications}
 
-### Published Papers & Preprints
+### Published Papers, Preprints & Posters
 
 {% include selected_papers.liquid %}
 
