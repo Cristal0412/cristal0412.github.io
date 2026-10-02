@@ -849,7 +849,8 @@ html[data-theme="dark"] .home-impact {
   }
 }
 
-.publications .publication-self {
+.publications .publication-self,
+.home-activities .publication-self {
   color: var(--global-text-color);
   font-weight: 700;
   text-decoration: underline;
