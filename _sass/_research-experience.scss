@@ -211,16 +211,62 @@
   }
 }
 
-.professional-experience .research-entry {
-  grid-template-columns: 12.5rem minmax(0, 1fr);
+.professional-experience {
+  .research-entry {
+    grid-template-columns: 12.5rem 76px minmax(0, 1fr);
+  }
+
+  .company-logo {
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+    padding-top: 0.35rem;
+
+    img {
+      height: auto;
+    }
+  }
+
+  .company-logo-jd img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 132px;
+    max-width: none;
+    height: auto;
+    transform: translate(-50%, -26px);
+  }
+
+  .company-logo-bytedance img {
+    filter: invert(1);
+  }
+}
+
+html[data-theme="dark"] .professional-experience .company-logo-bytedance img {
+  filter: none;
+}
+
+@media (max-width: 850px) {
+  .professional-experience .research-entry {
+    grid-template-columns: 11.5rem 76px minmax(0, 1fr);
+  }
 }
 
 @media (max-width: 640px) {
-  .professional-experience .research-entry {
-    grid-template-columns: minmax(0, 1fr);
+  .professional-experience {
+    .research-entry {
+      grid-template-columns: 60px minmax(0, 1fr);
+    }
 
-    .research-details {
-      grid-column: 1;
+    .company-logo {
+      height: 42px;
+    }
+
+    .company-logo-jd img {
+      width: 104px;
+      max-width: none;
+      height: auto;
+      transform: translate(-50%, -20px);
     }
   }
 }
