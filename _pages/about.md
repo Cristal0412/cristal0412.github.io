@@ -107,6 +107,14 @@ latest_posts:
 
 </section>
 
+<section class="home-section-card" markdown="1" aria-labelledby="professional-experience">
+
+## Professional Experience {#professional-experience}
+
+{% include professional_experience.liquid %}
+
+</section>
+
 <section class="home-section-card" markdown="1" aria-labelledby="teaching">
 
 ## Teaching Experience {#teaching}
