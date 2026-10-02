@@ -190,7 +190,7 @@ latest_posts:
     <h3 id="award-certifications">Certifications</h3>
     <div class="award-card">
       <span class="award-icon"><i class="fa-solid fa-certificate" aria-hidden="true"></i></span>
-      <div><h4>Certified Financial Risk Manager (FRM)</h4><p>Part I and Part II</p></div>
+      <div><h4>Certified Financial Risk Manager (FRM)</h4><p>Part I and Part II · 2023</p></div>
     </div>
   </section>
 </div>
