@@ -75,7 +75,7 @@ latest_posts:
   </div>
 </div>
 
-## Experience {#experience}
+## Research Experience {#experience}
 
 {% include research_experience.liquid %}
 
@@ -152,11 +152,20 @@ latest_posts:
   </section>
 </div>
 
-## Academic Activities {#academic-activities}
+## Academic Service & Activities {#academic-service}
 
-<div class="home-academic-activities">
-  <section class="home-service home-activities" aria-labelledby="academic-activities">
+<div class="home-academic-services">
+  <section class="home-service" aria-labelledby="conference-reviewing">
+    <span class="service-icon"><i class="fa-solid fa-user-check" aria-hidden="true"></i></span>
+    <h3 id="conference-reviewing">Conference Reviewing</h3>
+    <ul class="service-venues" aria-label="Reviewed conferences">
+      <li><strong>AAAI</strong><span>2025–2026</span></li>
+      <li><strong>ICLR</strong><span>2027</span></li>
+    </ul>
+  </section>
+  <section class="home-service home-activities" aria-labelledby="conference-participation">
     <span class="service-icon"><i class="fa-solid fa-users" aria-hidden="true"></i></span>
+    <h3 id="conference-participation">Conference Participation &amp; Poster Presentations</h3>
     <ul class="academic-activity-list">
       <li><span class="activity-year">2026</span><div><strong>Association for Research in Vision and Ophthalmology (ARVO)</strong><p>Second author on a poster · Primary Cilia–Hedgehog Signaling Regulates Meibomian Gland Progenitors and Lipid Homeostasis</p><p>May 6, 2026 · Denver, CO</p></div></li>
       <li><span class="activity-year">2026</span><div><strong>Johns Hopkins Cell Biology Symposium</strong><p>Second author on a poster · Hedgehog Signaling Maintains Meibomian Gland Progenitors and Lipid Homeostasis with Implications for MG Dysfunction Therapeutics</p><p>April 10, 2026 · Bloomberg Center, Washington, DC</p></div></li>
@@ -166,19 +175,6 @@ latest_posts:
       <li><span class="activity-year">2023</span><div><strong>Sydney Bioinformatics Research Symposium (SBRS)</strong><p>Participant</p></div></li>
       <li><span class="activity-year">2023</span><div><strong>Single-Cell Plus – Data Science Challenges in Single-Cell Research</strong><p>Participant</p></div></li>
       <li><span class="activity-year">2023</span><div><strong>Unlocking Single Cell Spatial Omics Analyses with Scdney</strong><p>Participant</p></div></li>
-    </ul>
-  </section>
-</div>
-
-## Academic Services {#academic-service}
-
-<div class="home-academic-services">
-  <section class="home-service" aria-labelledby="conference-reviewing">
-    <span class="service-icon"><i class="fa-solid fa-user-check" aria-hidden="true"></i></span>
-    <h3 id="conference-reviewing">Conference Reviewing</h3>
-    <ul class="service-venues" aria-label="Reviewed conferences">
-      <li><strong>AAAI</strong><span>2025–2026</span></li>
-      <li><strong>ICLR</strong><span>2027</span></li>
     </ul>
   </section>
 </div>
