@@ -4,13 +4,16 @@
 import json
 import os
 import re
+import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlencode, urljoin
+from urllib.parse import parse_qs, urlencode, urljoin, urlparse
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo
 
 from bs4 import BeautifulSoup
+import yaml
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -51,6 +54,10 @@ def fetch_public_profile(user_id):
     with urlopen(request, timeout=30) as response:
         soup = BeautifulSoup(response.read(), "html.parser")
 
+    return parse_public_profile(soup, profile_url)
+
+
+def parse_public_profile(soup, profile_url):
     name = soup.select_one("#gsc_prf_in")
     stats = [int(cell.get_text(strip=True).replace(",", "")) for cell in soup.select("#gsc_rsb_st td.gsc_rsb_std")]
     rows = soup.select("tr.gsc_a_tr")
@@ -68,6 +75,8 @@ def fetch_public_profile(user_id):
                 "title": title.get_text(" ", strip=True),
                 "citations": int(count.get_text(strip=True).replace(",", "") or 0) if count else 0,
                 "url": urljoin("https://scholar.google.com", title.get("href", "")),
+                "citation_id": parse_qs(urlparse(title.get("href", "")).query).get("citation_for_view", [""])[0],
+                "year": row.select_one(".gsc_a_y").get_text(strip=True) if row.select_one(".gsc_a_y") else "",
             }
         )
     if not papers:
@@ -97,7 +106,8 @@ def fetch_serpapi_profile(user_id, api_key):
             if citation_id
             else article.get("link", "")
         )
-        papers.append({"title": article.get("title", "Untitled paper"), "citations": int(str(citations).replace(",", "")), "url": link})
+        papers.append({"title": article.get("title", "Untitled paper"), "citations": int(str(citations).replace(",", "")), "url": link,
+                       "citation_id": citation_id, "year": str(article.get("year", ""))})
 
     return (
         result.get("author", {}).get("name", "Xiaoying Liao"),
@@ -110,17 +120,27 @@ def fetch_serpapi_profile(user_id, api_key):
 def main():
     user_id = scholar_id()
     api_key = os.environ.get("SERPAPI_KEY")
-    try:
-        name, stats, papers, profile_url = (
-            fetch_serpapi_profile(user_id, api_key) if api_key else fetch_public_profile(user_id)
-        )
-    except Exception as exc:
-        if os.environ.get("CI") and DATA_PATHS[0].exists():
-            print(f"Scholar refresh unavailable; keeping last verified snapshot: {exc}")
-            return
-        raise
+    for attempt in range(3):
+        try:
+            name, stats, papers, profile_url = (
+                fetch_serpapi_profile(user_id, api_key) if api_key else fetch_public_profile(user_id)
+            )
+            break
+        except Exception:
+            if attempt == 2:
+                print("Scholar refresh failed; existing verified data was preserved. Configure SERPAPI_KEY if Google blocks direct access.", file=sys.stderr)
+                raise
+            time.sleep(5 * (attempt + 1))
 
     today = datetime.now(ZoneInfo("America/Los_Angeles")).date().isoformat()
+    citation_data = {"metadata": {"last_updated": today, "scholar_userid": user_id}, "papers": {}}
+    for paper in papers:
+        citation_id = paper["citation_id"]
+        if not citation_id or not citation_id.startswith(user_id + ":"):
+            raise ValueError("Scholar returned a publication without a matching author citation ID")
+        citation_data["papers"][citation_id] = {
+            "title": paper["title"], "year": paper["year"], "citations": paper["citations"]
+        }
     previous = json.loads(DATA_PATHS[0].read_text()) if DATA_PATHS[0].exists() else {}
     history = [point for point in previous.get("history", []) if point.get("date") != today]
     history.append({"date": today, "total_citations": int(stats[0])})
@@ -145,6 +165,7 @@ def main():
         "chart_points": chart_points(history),
         "top_paper": max(papers, key=lambda paper: paper["citations"]),
     }
+    (ROOT / "_data/citations.yml").write_text(yaml.safe_dump(citation_data, allow_unicode=True, sort_keys=False))
     if previous:
         comparable = {key: value for key, value in impact.items() if key != "summary"}
         previous_comparable = {key: value for key, value in previous.items() if key != "summary"}

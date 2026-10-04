@@ -238,12 +238,11 @@
   }
 
   .company-logo-bytedance img {
-    filter: invert(1);
+    background-color: white;
+    border-radius: 3px;
+    padding: 4px;
+    filter: none;
   }
-}
-
-html[data-theme="dark"] .professional-experience .company-logo-bytedance img {
-  filter: none;
 }
 
 @media (max-width: 850px) {
