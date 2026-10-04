@@ -45,7 +45,7 @@ latest_posts:
 
     <p>
       I have a background in both experimental and computational research. I earned my Master of Biomedical Engineering from
-      <a href="https://www.jhu.edu/">Johns Hopkins University</a> and my Bachelor of Science (Honours) in Statistics and Economics from the
+      <a href="https://www.jhu.edu/">Johns Hopkins University</a> and my Bachelor of Science (Honours) in Economics and Statistics from the
       <a href="https://www.sydney.edu.au/">University of Sydney</a>.
     </p>
 
