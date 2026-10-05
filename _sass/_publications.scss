@@ -73,6 +73,11 @@
 
       .periodical {
         color: #e53935;
+
+        strong {
+          color: inherit;
+          font-weight: 700;
+        }
       }
 
       .author {

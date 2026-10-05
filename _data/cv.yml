@@ -135,23 +135,50 @@ cv:
         summary: "Undergraduate honors research"
 
     Skills:
-      - name: Programming and analysis
-        keywords: [Python, R, SQL, MATLAB, Stata, SAS, SPSS, Tableau, GraphPad Prism, FIJI/ImageJ]
-      - name: Computational biology
-        keywords: [Single-cell transcriptomics, Spatial transcriptomics, Statistical modeling, Machine learning, Bioinformatics]
-      - name: Experimental biology
+      - name: "Programming & Data Analysis"
         keywords:
           [
-            Cell and tissue culture,
-            Immunostaining,
-            Confocal imaging,
-            Two-photon imaging,
-            PCR,
-            qRT-PCR,
-            Western blot,
-            Genotyping,
-            DNA/RNA extraction,
-            Mouse procedures,
+            "Python",
+            "R",
+            "SQL",
+            "MATLAB",
+            "Linux",
+            "Git",
+            "PyTorch",
+            "scikit-learn",
+            "NumPy",
+            "pandas",
+            "Scanpy",
+            "Seurat",
+            "Bioconductor",
+            "Cell Ranger",
+            "GraphPad Prism",
+            "FIJI/ImageJ",
+          ]
+      - name: "Computational Biology"
+        keywords:
+          [
+            "Single-cell and spatial transcriptomics",
+            "Statistical modeling",
+            "Machine learning and deep learning",
+            "Foundation models for biological data",
+            "Multimodal and multi-omics integration",
+            "Perturbation and drug-response modeling",
+            "Spatial omics analysis and benchmarking",
+          ]
+      - name: "Experimental Biology"
+        keywords:
+          [
+            "10x Genomics single-cell sequencing",
+            "Illumina spatial transcriptomics",
+            "Cell and tissue culture",
+            "Immunostaining",
+            "Confocal and two-photon microscopy",
+            "PCR/qRT-PCR",
+            "Western blotting",
+            "Genotyping",
+            "DNA/RNA extraction",
+            "Mouse procedures",
           ]
 
     Honors and Awards:
