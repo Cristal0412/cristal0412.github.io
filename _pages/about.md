@@ -142,7 +142,7 @@ latest_posts:
     <div>
       <h3 id="skill-computational">Computational Biology</h3>
       <div class="skill-tags">
-        <span>Single-cell and spatial transcriptomics</span><span>Statistical modeling</span><span>Machine learning and deep learning</span><span>Foundation models for biological data</span><span>Multimodal and multi-omics integration</span><span>Perturbation and drug-response modeling</span><span>Spatial omics analysis and benchmarking</span>
+        <span>Single-cell and spatial transcriptomics</span><span>Statistical modeling</span><span>Machine learning and deep learning</span><span>Foundation models for biological data</span><span>Multimodal and multi-omics integration</span><span>Perturbation and drug-response modeling</span>
       </div>
     </div>
   </section>

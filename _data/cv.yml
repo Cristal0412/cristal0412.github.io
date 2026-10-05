@@ -190,7 +190,6 @@ cv:
             "Foundation models for biological data",
             "Multimodal and multi-omics integration",
             "Perturbation and drug-response modeling",
-            "Spatial omics analysis and benchmarking",
           ]
       - name: "Experimental Biology"
         keywords:
