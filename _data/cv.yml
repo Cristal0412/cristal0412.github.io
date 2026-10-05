@@ -80,6 +80,27 @@ cv:
         highlights:
           - Led tutorials and workshops in probability, statistical inference, R programming, data analytics, and introductory machine learning.
 
+    Professional Experience:
+      - company: "JD.com"
+        position: "Data Analyst Intern"
+        location: "Beijing, China"
+        start_date: "2022-02"
+        end_date: "2022-05"
+        date_label: "Feb. 2022 – May 2022"
+        highlights:
+          - "Analyzed large-scale retail and consumer datasets using SQL, Python, and R, applying time-series forecasting, regression, and statistical modeling."
+          - "Developed automated analytics pipelines and dashboards to support inventory planning, consumer behavior analysis, and operational decision-making."
+
+      - company: "ByteDance – TikTok"
+        position: "Data Operation Intern"
+        location: "Beijing, China"
+        start_date: "2021-12"
+        end_date: "2022-02"
+        date_label: "Dec. 2021 – Feb. 2022"
+        highlights:
+          - "Analyzed global business and user behavior data using SQL and Python, including automated metric monitoring and interactive BI dashboards."
+          - "Applied statistical analysis and user segmentation models to characterize consumer behavior and support data-driven product and marketing strategies."
+
     Projects:
       - name: Spatial Transcriptomics Clustering
         summary: Assessed clustering and spatial-domain detection methods across simulated and real spatial transcriptomics datasets.

@@ -26,6 +26,10 @@
             {% assign date = '' %}
           {% endif %}
 
+          {% if entry.date_label %}
+            {% assign date = entry.date_label %}
+          {% endif %}
+
           <table class="table-cv">
             <tbody>
               <tr>
