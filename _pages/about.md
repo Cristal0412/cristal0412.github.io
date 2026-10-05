@@ -109,7 +109,7 @@ latest_posts:
 
 <section class="home-section-card" markdown="1" aria-labelledby="professional-experience">
 
-## Professional Experience {#professional-experience}
+## Professional experience {#professional-experience}
 
 {% include professional_experience.liquid %}
 

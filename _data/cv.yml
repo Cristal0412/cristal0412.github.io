@@ -81,7 +81,7 @@ cv:
           - "**STAT2011 Probability and Estimation Theory:** Guided students through probability theories and statistical distributions, including practical R programming for data analysis applications."
           - "**DATA2002 Data Analytics: Learning from Data:** Led workshops on data analytics techniques, enabling students to apply statistical programming to real-world data challenges and machine learning concepts for informed decision-making."
 
-    Professional Experience:
+    Professional experience:
       - company: "JD.com"
         position: "Data Analyst Intern"
         location: "Beijing, China"
@@ -89,8 +89,9 @@ cv:
         end_date: "2022-05"
         date_label: "Feb. 2022 – May 2022"
         highlights:
-          - "Analyzed large-scale retail and consumer datasets using SQL, Python, and R, applying time-series forecasting, regression, and statistical modeling."
-          - "Developed automated analytics pipelines and dashboards to support inventory planning, consumer behavior analysis, and operational decision-making."
+          - "Retail Dataset Management: Utilized Hive SQL for complicated retail sales data management, focusing on home appliances at JD.com. Implemented time-series forecasting and multivariate regression to improve inventory and promotion strategies support for millions of users."
+          - "Consumer Behavior Analytics: Analyzed consumer behavior using advanced statistical modeling in R and Python to identify key purchasing patterns. Developed and implemented sales strategies tailored to customer segments, resulting in a 25% increase in sales performance compared to the previous quarter."
+          - "Operational Analytics Platform Development: Designed and built an advanced analytics dashboard using Python, enabling the operations team to track daily sales data in real time. Facilitated the rapid development of targeted business strategies, which led to a quantifiable 60% improvement in operational efficiency."
 
       - company: "ByteDance – TikTok"
         position: "Data Operation Intern"
@@ -99,8 +100,9 @@ cv:
         end_date: "2022-02"
         date_label: "Dec. 2021 – Feb. 2022"
         highlights:
-          - "Analyzed global business and user behavior data using SQL and Python, including automated metric monitoring and interactive BI dashboards."
-          - "Applied statistical analysis and user segmentation models to characterize consumer behavior and support data-driven product and marketing strategies."
+          - "Product Optimization: Performed market research for CRM platforms, delivering bespoke solutions to meet diverse global sales and operational challenges."
+          - "Data Empowerment: Monitored business performance through SQL and Python, automatically analyzed vital indicators, and provided timely feedback on potential problems. Established an interactive BI data dashboard to display key business indicators visually and support real-time decision-making."
+          - "Brand Growth: Conducted data analysis of user behavior to develop an AIPL (Awareness, Interest, Preference, and Loyalty) user classification model. Tailored payment tools, strategies, and creative content to users at various stages of brand awareness, achieving a remarkable 15% increase in brand advertising click-through rate."
 
     Projects:
       - name: Spatial Transcriptomics Clustering
