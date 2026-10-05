@@ -56,16 +56,6 @@ cv:
           - "Cilia\u2013Hedgehog signaling: Characterized Ift88\u2013Smo genetic interactions and their effects on epithelial proliferation, gland morphology, and lipid production and composition."
           - "Single-cell transcriptomics: Generated and analyzed P5 and P10 meibomian gland scRNA-seq data to characterize developmental cell states and pathways associated with gland maturation and Hedgehog signaling."
 
-      - company: "University of Pittsburgh"
-        position: "Research Collaboration"
-        start_date: 2025
-        end_date: 2026
-        summary: "Collaborated with Dr. Huanhuan Xiao and Prof. Liyun Zhang on quantitative visual behavior analysis in zebrafish models of inherited retinal degeneration."
-        highlights:
-          - "Visual behavior analysis: Analyzed photopic and scotopic visual motor response (VMR) data in pde6b mutant zebrafish to characterize genotype-dependent deficits in visual function."
-          - "Quantitative analysis: Developed R-based workflows for behavioral data processing, response quantification, and statistical comparison across genotypes and lighting conditions."
-          - "Therapeutic evaluation: Analyzed VMR responses across treatment conditions, including RA, 17-AAG, and DHA, and generated publication figures to evaluate potential rescue of visual function in the pde6b retinal degeneration model."
-
       - company: "University of Sydney"
         position: "Research Assistant"
         location: "Sydney, Australia"
