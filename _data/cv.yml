@@ -39,7 +39,7 @@ cv:
         location: "Stanford, California, USA"
         start_date: 2026
         end_date: Present
-        summary: "Working with Prof. Xiaojie Qiu on single-cell and spatial omics to investigate cell-state transitions, tissue organization, and molecular programs underlying mammalian development and disease."
+        summary: "Working with **Prof. Xiaojie Qiu** on single-cell and spatial omics to investigate cell-state transitions, tissue organization, and molecular programs underlying mammalian development and disease."
         highlights:
           - "Human fetal heart development: Analyzing PCW7 and 8 human fetal heart spatial transcriptomics data to characterize cardiac cell states, spatial niches, cell\u2013cell communication, and 3D reconstruction during early heart development."
           - "3D embryonic development: Building a 3D spatiotemporal atlas of mouse embryogenesis from E5.5\u2013E7.5 to characterize cell-state transitions, spatial tissue organization, and developmental trajectories during early embryogenesis."
@@ -50,7 +50,7 @@ cv:
         location: "Baltimore, Maryland, USA"
         start_date: 2024
         end_date: 2026
-        summary: "Worked with Prof. Carlo Iomini at the Wilmer Eye Institute to investigate cilia-dependent Hedgehog signaling in meibomian gland development and dry eye disease."
+        summary: "Worked with **Prof. Carlo Iomini** at the Wilmer Eye Institute to investigate cilia-dependent Hedgehog signaling in meibomian gland development and dry eye disease."
         highlights:
           - "Meibomian gland development: Investigated how Hedgehog-responsive epithelial progenitors regulate gland development, meibocyte maturation, and lipid homeostasis."
           - "Cilia\u2013Hedgehog signaling: Characterized Ift88\u2013Smo genetic interactions and their effects on epithelial proliferation, gland morphology, and lipid production and composition."
@@ -61,7 +61,7 @@ cv:
         location: "Sydney, Australia"
         start_date: 2023
         end_date: 2024
-        summary: "Worked with Prof. Jean Yang and Prof. Clara Grazian on computational method development and benchmarking for spatial transcriptomics."
+        summary: "Worked with **Prof. Jean Yang** and **Prof. Clara Grazian** on computational method development and benchmarking for spatial transcriptomics."
         highlights:
           - "Data preprocessing: Used Python and R to preprocess spatial transcriptomics datasets, including quality control, normalization, feature selection, and dimensionality reduction using principal component analysis (PCA)."
           - "Spatial domain detection: Applied and compared clustering approaches, including K-means and Seurat, alongside spatially informed methods such as BayesSpace and STitch3D, to identify tissue domains and characterize spatial organization."
