@@ -78,7 +78,8 @@ cv:
         start_date: 2023
         end_date: 2024
         highlights:
-          - Led tutorials and workshops in probability, statistical inference, R programming, data analytics, and introductory machine learning.
+          - "**STAT2011 Probability and Estimation Theory:** Guided students through probability theories and statistical distributions, including practical R programming for data analysis applications."
+          - "**DATA2002 Data Analytics: Learning from Data:** Led workshops on data analytics techniques, enabling students to apply statistical programming to real-world data challenges and machine learning concepts for informed decision-making."
 
     Professional Experience:
       - company: "JD.com"
