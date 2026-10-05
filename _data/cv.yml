@@ -87,29 +87,52 @@ cv:
         summary: Investigated the stage-specific roles of primary cilia and Hedgehog signaling in gland morphogenesis and adult tissue homeostasis.
 
     Publications:
-      - title: "Agent Harness Engineering: A Survey"
-        publisher: Under review at ACL
+      - title: "ProactiveEngine: Proactive Learning with Lifelong Memory via World Models"
+        publisher: "Empirical Methods in Natural Language Processing (EMNLP, Main Conference)"
         date: 2026
-        url: https://picrew.github.io/LLM-Harness/
+        url: https://scholar.google.com/citations?view_op=view_citation&user=UdXzuvkAAAAJ&citation_for_view=UdXzuvkAAAAJ:Se3iqnhoufwC
+        summary: "**Oral (Top 1%)**"
+
+      - title: "Spatio-temporal Transcriptomic Profiling of Serial Human Fetal Heart Sections Reveals Cellular Architecture and Functional Niches during development"
+        publisher: "Stanford Genetics Department Retreat"
+        date: 2026
+        summary: "Poster presentation"
+
+      - title: "Hedgehog Signaling Maintains Meibomian Gland Progenitors and Lipid Homeostasis with Implications for Meibomian Gland Dysfunction Therapeutics"
+        publisher: "Investigative Ophthalmology & Visual Science"
+        date: 2026
+        url: https://scholar.google.com/citations?view_op=view_citation&user=UdXzuvkAAAAJ&citation_for_view=UdXzuvkAAAAJ:eQOLeE2rZwMC
 
       - title: "Bio-Babel: Autonomous Cross-Language Reconstruction of Agent-Ready Computational Biology Ecosystems"
-        publisher: bioRxiv
+        publisher: "bioRxiv"
         date: 2026
-        url: https://doi.org/10.64898/2026.08.30.743167
+        url: https://www.biorxiv.org/content/10.64898/2026.08.30.743167v1
+
+      - title: "Foundation Models for Radiology Report Generation"
+        publisher: "One chapter in medical field's book"
+        date: 2026
+        summary: "Under review"
 
       - title: "Prompt-based Adaptation in Large-scale Vision Models: A Survey"
-        publisher: Transactions on Machine Learning Research
+        publisher: "Transactions on Machine Learning Research"
         date: 2026
         url: https://arxiv.org/abs/2510.13219
 
-      - title: Boosting Active Learning with Knowledge Transfer
-        publisher: IEEE ICTAI
-        date: 2025
-        url: https://doi.org/10.1109/ICTAI66417.2025.00164
-
-      - title: Foundation Models for Radiology Report Generation
-        publisher: Handbook of Medical Computer Vision, Springer
+      - title: "Agent Harness Engineering: A Survey"
+        publisher: "Under review at ACL"
         date: 2026
+        url: https://picrew.github.io/LLM-Harness/
+
+      - title: "Boosting Active Learning with Knowledge Transfer"
+        publisher: "2025 IEEE 37th International Conference on Tools with Artificial Intelligence"
+        date: 2025
+        url: https://arxiv.org/abs/2509.15805
+
+      - title: "Assessing the Performance of Clustering Methods in Spatially Resolved Transcriptomics Data"
+        publisher: "University of Sydney"
+        date: 2023
+        url: https://cristal0412.github.io/assets/pdf/HonoursThesis_Xiaoying_Liao.pdf
+        summary: "Undergraduate honors research"
 
     Skills:
       - name: Programming and analysis

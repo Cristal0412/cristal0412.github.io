@@ -185,6 +185,11 @@
     <div class="periodical">
       {{ periodical | strip }}
     </div>
+    {% if entry.distinction %}
+      <div class="periodical">
+        <strong>{{ entry.distinction | escape }}</strong>
+      </div>
+    {% endif %}
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
