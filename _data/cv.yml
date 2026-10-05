@@ -34,26 +34,48 @@ cv:
           - "GPA: 3.90/4.00; rank: 1/200; supervised by Prof. Jean Yang"
 
     Experience:
-      - company: Qiu Lab, Stanford University
-        position: Research Assistant
-        location: Stanford, California
-        url: https://www.devo-evo.com/people/xiaoying/
+      - company: "Stanford University"
+        position: "Research Assistant"
+        location: "Stanford, California, USA"
         start_date: 2026
         end_date: Present
-        summary: AI, genomics, development, and disease
+        summary: "Working with Prof. Xiaojie Qiu on single-cell and spatial omics to investigate cell-state transitions, tissue organization, and molecular programs underlying mammalian development and disease."
         highlights:
-          - 3D profiling of early mouse embryonic development.
-          - Spatial profiling and modeling of cardiomyopathy recovery in children.
+          - "Human fetal heart development: Analyzing PCW7 and 8 human fetal heart spatial transcriptomics data to characterize cardiac cell states, spatial niches, cell\u2013cell communication, and 3D reconstruction during early heart development."
+          - "3D embryonic development: Building a 3D spatiotemporal atlas of mouse embryogenesis from E5.5\u2013E7.5 to characterize cell-state transitions, spatial tissue organization, and developmental trajectories during early embryogenesis."
+          - "Pediatric cardiomyopathy: Leading a single-cell multi-omics and spatial transcriptomics study comparing myocardial states before and after ventricular assist device support (VAD) and between recovery and non-recovery to identify cellular programs, spatial niches, and potential biomarkers associated with myocardial recovery."
 
-      - company: Wilmer Eye Institute, Johns Hopkins University School of Medicine
-        position: Research Assistant
-        location: Baltimore, Maryland
+      - company: "Johns Hopkins University"
+        position: "Research Assistant"
+        location: "Baltimore, Maryland, USA"
         start_date: 2024
         end_date: 2026
-        summary: Supervised by Prof. Carlo Iomini
+        summary: "Worked with Prof. Carlo Iomini at the Wilmer Eye Institute to investigate cilia-dependent Hedgehog signaling in meibomian gland development and dry eye disease."
         highlights:
-          - Studied cilia-dependent Hedgehog signaling in meibomian gland development, progenitor maintenance, lipid homeostasis, and dry eye disease.
-          - Combined mouse genetics, transcriptomic analysis, quantitative imaging, and wet-lab experiments.
+          - "Meibomian gland development: Investigated how Hedgehog-responsive epithelial progenitors regulate gland development, meibocyte maturation, and lipid homeostasis."
+          - "Cilia\u2013Hedgehog signaling: Characterized Ift88\u2013Smo genetic interactions and their effects on epithelial proliferation, gland morphology, and lipid production and composition."
+          - "Single-cell transcriptomics: Generated and analyzed P5 and P10 meibomian gland scRNA-seq data to characterize developmental cell states and pathways associated with gland maturation and Hedgehog signaling."
+
+      - company: "University of Pittsburgh"
+        position: "Research Collaboration"
+        start_date: 2025
+        end_date: 2026
+        summary: "Collaborated with Dr. Huanhuan Xiao and Prof. Liyun Zhang on quantitative visual behavior analysis in zebrafish models of inherited retinal degeneration."
+        highlights:
+          - "Visual behavior analysis: Analyzed photopic and scotopic visual motor response (VMR) data in pde6b mutant zebrafish to characterize genotype-dependent deficits in visual function."
+          - "Quantitative analysis: Developed R-based workflows for behavioral data processing, response quantification, and statistical comparison across genotypes and lighting conditions."
+          - "Therapeutic evaluation: Analyzed VMR responses across treatment conditions, including RA, 17-AAG, and DHA, and generated publication figures to evaluate potential rescue of visual function in the pde6b retinal degeneration model."
+
+      - company: "University of Sydney"
+        position: "Research Assistant"
+        location: "Sydney, Australia"
+        start_date: 2023
+        end_date: 2024
+        summary: "Worked with Prof. Jean Yang and Prof. Clara Grazian on computational method development and benchmarking for spatial transcriptomics."
+        highlights:
+          - "Data preprocessing: Used Python and R to preprocess spatial transcriptomics datasets, including quality control, normalization, feature selection, and dimensionality reduction using principal component analysis (PCA)."
+          - "Spatial domain detection: Applied and compared clustering approaches, including K-means and Seurat, alongside spatially informed methods such as BayesSpace and STitch3D, to identify tissue domains and characterize spatial organization."
+          - "Method evaluation: Benchmarked clustering performance across simulated and real datasets, examining factors affecting method efficacy and identifying strengths and limitations to inform method selection in spatial transcriptomics research."
 
       - company: Johns Hopkins University
         position: Teaching Assistant, Cell & Tissue Engineering Lab
