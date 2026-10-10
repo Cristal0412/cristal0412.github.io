@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-10-08'
+  last_updated: '2026-10-10'
   scholar_userid: UdXzuvkAAAAJ
 papers:
   UdXzuvkAAAAJ:9yKSN-GCB0IC:
@@ -9,7 +9,7 @@ papers:
   UdXzuvkAAAAJ:Tyk-4Ss8FVUC:
     title: 'Agent harness engineering: A survey'
     year: '2026'
-    citations: 27
+    citations: 28
   UdXzuvkAAAAJ:Se3iqnhoufwC:
     title: 'ProactiveEngine: Proactive Learning with Lifelong Memory via World Models'
     year: '2026'
