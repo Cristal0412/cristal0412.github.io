@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-10-24'
+  last_updated: '2026-10-28'
   scholar_userid: UdXzuvkAAAAJ
 papers:
   UdXzuvkAAAAJ:9yKSN-GCB0IC:
     title: 'Prompt-based adaptation in large-scale vision models: A survey'
     year: '2026'
-    citations: 44
+    citations: 45
   UdXzuvkAAAAJ:Tyk-4Ss8FVUC:
     title: 'Agent harness engineering: A survey'
     year: '2026'
-    citations: 36
-  UdXzuvkAAAAJ:Se3iqnhoufwC:
+    citations: 39
+  UdXzuvkAAAAJ:UebtZRa9Y70C:
     title: 'ProactiveEngine: Proactive Learning with Lifelong Memory via World Models'
     year: '2026'
     citations: 0
