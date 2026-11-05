@@ -9,8 +9,8 @@
     "h_index": 2,
     "i10_index": 2,
     "paper_count": 7,
-    "updated": "2026-11-04",
-    "updated_at_utc": "2026-11-04T19:48:07+00:00",
+    "updated": "2026-11-05",
+    "updated_at_utc": "2026-11-05T19:59:53+00:00",
     "source": "Google Scholar public profile"
   },
   "history": [
@@ -57,9 +57,13 @@
     {
       "date": "2026-11-04",
       "total_citations": 86
+    },
+    {
+      "date": "2026-11-05",
+      "total_citations": 86
     }
   ],
-  "chart_points": "0,60 30,60 60,49 90,49 120,47 150,44 180,26 210,15 240,15 270,10 300,10",
+  "chart_points": "0,60 27,60 55,49 82,49 109,47 136,44 164,26 191,15 218,15 245,10 273,10 300,10",
   "top_paper": {
     "title": "Prompt-based adaptation in large-scale vision models: A survey",
     "citations": 46,
