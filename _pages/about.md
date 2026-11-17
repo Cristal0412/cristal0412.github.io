@@ -220,7 +220,7 @@ latest_posts:
   </section>
   <section class="home-service home-activities" aria-labelledby="conference-participation">
     <span class="service-icon"><i class="fa-solid fa-users" aria-hidden="true"></i></span>
-    <h3 id="conference-participation">Conference Participation &amp; Poster Presentations</h3>
+    <h3 id="conference-participation">Conference Posters &amp; Academic Activities</h3>
     <ul class="academic-activity-list">
       <li><span class="activity-year">2026</span><div><strong>Stanford Genetics Department Retreat</strong><p class="activity-authors">Miao Cui, Cinlong Huang, <strong class="publication-self">Xiaoying Liao</strong>, Xiaoke Song, Stephanie Conley, Jesse Engreitz, and Xiaojie Qiu</p><p>September 17–18, 2026 · CuriOdyssey, San Mateo, CA</p></div></li>
       <li><span class="activity-year">2026</span><div><strong>Association for Research in Vision and Ophthalmology (ARVO)</strong><p class="activity-authors">Huanhuan Xiao, <strong class="publication-self">Xiaoying Liao</strong>, Céline Portal, Zhenzhen Pan, Eileen Chen, Igor A. Butovich, Carlo Iomini</p><p>Primary Cilia–Hedgehog Signaling Regulates Meibomian Gland Progenitors and Lipid Homeostasis</p><p>May 6, 2026 · Denver, CO</p></div></li>
