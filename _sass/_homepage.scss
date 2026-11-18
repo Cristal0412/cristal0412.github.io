@@ -1061,8 +1061,8 @@ html[data-theme="dark"] .publications {
   background-color: #fff;
 
   .home-section-card {
-    margin: 0 0 2.4rem;
-    padding: 2rem;
+    margin: 0 0 3rem;
+    padding: clamp(1.25rem, 3vw, 2.5rem);
     border: 1px solid var(--global-divider-color);
     border-radius: 20px;
     background: var(--global-bg-color);
