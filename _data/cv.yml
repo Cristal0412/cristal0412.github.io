@@ -123,7 +123,7 @@ cv:
       - title: "ProactiveEngine: Proactive Learning with Lifelong Memory via World Models"
         publisher: "Empirical Methods in Natural Language Processing (EMNLP, Main Conference)"
         date: 2026
-        url: https://scholar.google.com/citations?view_op=view_citation&user=UdXzuvkAAAAJ&citation_for_view=UdXzuvkAAAAJ:Se3iqnhoufwC
+        url: https://aclanthology.org/2026.emnlp-main.1652/
         summary: "**Oral (Top 1%)**"
 
       - title: "Novel zebrafish genetic models of pde6b mutants exhibit rod photoreceptor degeneration"
