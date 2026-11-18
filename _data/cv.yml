@@ -52,7 +52,7 @@ cv:
         highlights:
           - "Meibomian gland development: Investigated how Hedgehog-responsive epithelial progenitors regulate gland development, meibocyte maturation, and lipid homeostasis."
           - "Cilia\u2013Hedgehog signaling: Characterized Ift88\u2013Smo genetic interactions and their effects on epithelial proliferation, gland morphology, and lipid production and composition."
-          - "Single-cell transcriptomics: Generated and analyzed scRNA-seq data from P5 and P10 mouse meibomian glands to characterize developmental cell states and investigate molecular pathways involved in gland maturation and Hedgehog signaling."
+          - "Single-cell transcriptomics: Generated and analyzed scRNA-seq data from mouse meibomian glands to characterize developmental cell states and investigate molecular pathways involved in gland maturation and Hedgehog signaling."
 
       - company: "University of Sydney"
         position: "Research Assistant, supervised by Prof. Jean Yang and Prof. Clara Grazian"
