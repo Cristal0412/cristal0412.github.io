@@ -67,16 +67,18 @@ cv:
       - company: Johns Hopkins University
         position: Teaching Assistant, Cell & Tissue Engineering Lab
         location: Baltimore, Maryland
-        start_date: 2025
-        end_date: 2026
+        start_date: "2025-01"
+        end_date: "2025-05"
+        date_label: "Jan. 2025 – May 2025"
         highlights:
           - Mentored students in cell culture, gene delivery, metabolic glycoengineering, tissue modeling, data analysis, and scientific reporting.
 
       - company: University of Sydney
         position: Teaching Assistant
         location: Sydney, Australia
-        start_date: 2023
-        end_date: 2024
+        start_date: "2023-02"
+        end_date: "2023-12"
+        date_label: "Feb. 2023 – Dec. 2023"
         highlights:
           - "**STAT2011 Probability and Estimation Theory:** Guided students through probability theories and statistical distributions, including practical R programming for data analysis applications."
           - "**DATA2002 Data Analytics: Learning from Data:** Led workshops on data analytics techniques, enabling students to apply statistical programming to real-world data challenges and machine learning concepts for informed decision-making."
